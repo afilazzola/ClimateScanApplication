@@ -5,6 +5,7 @@
 library(shiny)
 library(tools)
 library(vegan)
+library(corrplot)
 
 server <- function(input, output) {
   
@@ -95,8 +96,44 @@ server <- function(input, output) {
   ordiplot(nmds1, type="n", xlim=c(-1,0.5))
   orditorp(nmds1, display="species", col="#E69F00", cex=1.4, air=0.1)
   orditorp(nmds1, display="sites", col="#56B4E9", cex=1.2, pch="")
+  })
   
+  output$corplot <- renderPlot({
+  ## Correlation between departments
+  ### Check the number of interacting deparmtents
   
+  ## need code to connect empty dataframes
+  source("cbind.r")
+  
+  ## load data
+  req(input$infile)
+  df <- read.csv(input$infile$datapath)
+  depts <- unique(df$Division.combined)
+  
+  ## empty data frames to load correlation values into
+  
+  intval2 <- data.frame(matrix(ncol=length(depts),nrow=length(depts)))
+  
+  for(j in 1:length(depts)){
+    intval <- data.frame() ## empty row dataframe
+    for(i in 1:length(depts)){
+      dept.1 <- subset(df, Division.combined==depts[j], select=c("If","Then.simplified")) ## select risks from department "j"
+      dept.1 <- paste(dept.1$If,dept.1$Then.simplified) ## combine into 1 column
+      dept.i <- subset(df, Division.combined==depts[i], select=c("If","Then.simplified")) ## select risks from department "i"
+      dept.i <- paste(dept.i$If,dept.i$Then.simplified) ## combine into 1 column
+      val <- data.frame(dept=length(intersect(dept.1,dept.i))) ## count number of duplicates between two departments
+      rownames(val) <- paste(depts[i]) # attach department "i" name
+      intval <- rbind(intval,val) ## attach to empty dataframe
+    }
+    intval2[,j] <- intval ## attach completed row into empty dataframe
+    colnames(intval2)[j] <- paste(depts[j]) ##attach department "j" name
+    
+  }
+  intval2[,"dept1"] <- colnames(intval2)
+  cordata <- gather(intval2, dept2, value, 1:(ncol(intval2)-1))
+  ggplot(data = cordata, aes(x=dept1, y=dept2, fill=value)) + 
+    geom_tile()+ 
+    scale_fill_gradient(low = "white", high = "red") + ylab("") + xlab("")+ theme(axis.text.x = element_text(angle = 90, hjust = 1))
 })
 }
   
