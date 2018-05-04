@@ -1,3 +1,8 @@
+
+
+
+
+
 # Climate Scan Analysis
 
 Input your file as a comma separated file (.csv)
