@@ -7,8 +7,10 @@ library(markdown)
 library(tidyverse)
 library(plotly)
 library(DT)
+library(shinythemes)
+library(shinycssloaders)
 
-shinyUI(fluidPage(sidebarLayout(
+shinyUI(fluidPage(theme = shinytheme("flatly"),sidebarLayout(
 
     sidebarPanel(fileInput('infile', label = NULL),
                  uiOutput("department")
@@ -17,11 +19,12 @@ shinyUI(fluidPage(sidebarLayout(
     mainPanel(
               
               tabsetPanel(type = "tabs",
-                          tabPanel("ReadMe", includeHTML("index.html"),includeMarkdown("README.md")),
-                          tabPanel("Department", tableOutput("contents"),plotOutput(outputId = "riskPlot"),plotOutput(outputId = "consPlot")),
+                          tabPanel("ReadMe", 
+                                   fluidPage(htmlOutput("inc"),includeMarkdown("README.md"))),
+                          tabPanel("Department", withSpinner(tableOutput("contents"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlot"),plotOutput(outputId = "consPlot"),plotOutput(outputId = "wordcloud")),
                           tabPanel("Corporate", 
                                    fluidPage(
-                                     fluidRow(tableOutput("cityrisk"),plotOutput(outputId = "cityplot"),plotOutput(outputId = "ordplot"),
+                                     fluidRow(tableOutput("cityrisk"),withSpinner(plotOutput(outputId = "cityplot"), type=6, color="#18BC9D"),plotOutput(outputId = "ordplot"),
                                               plotlyOutput(outputId = "corplot"),verbatimTextOutput("info"),
                                               plotOutput(outputId="networkplot")),
                                      # Create a new Row in the UI for selectInputs

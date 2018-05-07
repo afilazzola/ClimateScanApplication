@@ -11,7 +11,14 @@ library(statnet)
 library(plotly)
 source("riskcalculations.r")
 
+
 server <- function(input, output) {
+  
+  getPage<-function() {
+    return(includeHTML("index.html"))
+  }
+  output$inc<-renderUI({getPage()})
+  
   ## load data for server for multiple uses
   filedata <- reactive({
     req(input$infile) ## requires the input of a file
@@ -22,7 +29,7 @@ server <- function(input, output) {
     df
   })
   
-  
+
   ## Classify departemnts
   output$department <- renderUI({
     df <- filedata() ## loads main file
@@ -31,13 +38,14 @@ server <- function(input, output) {
     selectInput("department", "Choose Department", department) ## creates a UI based on department names
   })
   
+
   ## department risk table
   output$contents <- renderTable({
     df <- filedata() ## loads main file
     climate.div <- df  %>% group_by(If,department) %>% summarize(freq.risk=length(Future.risk.quant))  ## counts number of risks
     climate.div <- data.frame(climate.div) ## puts it into a traditional data frame
     climate.div <- subset(climate.div, department==input$department) ## subsets based on department identified from dropdown
-    
+
   })
   
   ## department plot based on risks
@@ -49,8 +57,12 @@ server <- function(input, output) {
     climate.div <- df  %>% group_by(If,department) %>% summarize(freq.risk=length(Future.risk.quant)) 
     climate.div <- data.frame(climate.div) ## puts it into a traditional data frame
     climate.div <- subset(climate.div, department==input$department) 
+    ymax <- max(climate.div$freq.risk)+2
     ## Plots the risks identifed within each department
-    ggplot(climate.div, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+theme_bw()
+    ggplot(climate.div, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+
+      ## improve plot look
+      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+
   })
   
   ## department consequence rankings
@@ -62,9 +74,13 @@ server <- function(input, output) {
     consequence <- df  %>% filter(department==input$department) %>% ## subset to only specific department
       gather(consequence, value, Financial:Critical.Infra) %>% group_by(consequence) %>%  ## extract columns for consequences and identify as groups
       summarize(avg=mean(value))
-    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("average consequence ranking") + xlab("")+theme_bw()
-      
+    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("average consequence ranking") + xlab("")+
+    ## improve plot look
+    theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,5))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+    
   })
+  
+
   ## Municipal Wide Risks rendered into a table
   output$cityrisk <- renderTable({
     
@@ -84,7 +100,10 @@ server <- function(input, output) {
     ## counts the number of identified risks
     climate.div <- df  %>% group_by(If) %>% summarize(freq.risk=length(Future.risk.quant))  
     ## plots the risk for the department
-    ggplot(climate.div, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+theme_bw()
+    ymax <- max(climate.div$freq.risk)+2
+    ggplot(climate.div, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+
+      ## improve plot look
+      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
     
   })
   
@@ -199,6 +218,29 @@ server <- function(input, output) {
       df[,c("Department","Division","If","Then","So","max.current.qual","max.future.qual","sum.current.qual","sum.future.qual")]
     }))
     
+    
+    ### WordClouds
+    output$wordcloud <- renderPlot({
+    
+    df <- filedata() ## loads main file
+      
+    ## subset based on departemtn
+    dept.words <- subset(df, department==input$department) 
+      
+    ## load text from Then and So
+    text_df <- data_frame(text=as.character(dept.words$Then),as.character(dept.words$So))
+    word.count <- text_df %>% unnest_tokens(word,text) %>%  dplyr::count(word, sort=T) ## count words
+    
+    ## list stopwords
+    stopwords <- c(stop_words$word, "risk","e.g.","e.g","due","increases","decreases","impacts","impact","lack","risks", "increase","increased","increasing","decrease","decreased","decreasing","lower","low","high","higher")
+    
+    ## remove stopwords
+    stop1 <- text_df %>% unnest_tokens(word,text) ## separate words into separate lines
+    stop2 <- stop1[!stop1$word %in% stopwords,] ## remove stop words
+    stop3 <- stop2 %>% dplyr::count(word, sort=T) ## sort words by frequency
+    
+    wordcloud(stop3$word, stop3$n, max.words=100)
+    })
 }
 
   

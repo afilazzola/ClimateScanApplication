@@ -9,7 +9,7 @@ output:
   pdf_document:
     toc: no
 ---
-<br>  
+
 
 # Approach for Conducting a Corporate Risk Scan for Climate Change
 
