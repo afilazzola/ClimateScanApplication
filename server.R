@@ -239,10 +239,9 @@ server <- function(input, output) {
     stop2 <- stop1[!stop1$word %in% stopwords,] ## remove stop words
     stop3 <- stop2 %>% dplyr::count(word, sort=T) ## sort words by frequency
     
-    wordcloud(stop3$word, stop3$n, max.words=100)
+    wordcloud(stop3$word, stop3$n, max.words=60, min.freq=1)
     })
 }
 
-  
-  
+
   

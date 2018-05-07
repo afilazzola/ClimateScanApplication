@@ -21,11 +21,13 @@ shinyUI(fluidPage(theme = shinytheme("flatly"),sidebarLayout(
               tabsetPanel(type = "tabs",
                           tabPanel("ReadMe", 
                                    fluidPage(htmlOutput("inc"),includeMarkdown("README.md"))),
-                          tabPanel("Department", withSpinner(tableOutput("contents"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlot"),plotOutput(outputId = "consPlot"),plotOutput(outputId = "wordcloud")),
+                          tabPanel("Department", withSpinner(tableOutput("contents"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlot"),includeMarkdown("frequencyplot.md"),
+                                   plotOutput(outputId = "consPlot"),includeMarkdown("consWordcloud.md"),plotOutput(outputId = "wordcloud")),
                           tabPanel("Corporate", 
                                    fluidPage(
-                                     fluidRow(tableOutput("cityrisk"),withSpinner(plotOutput(outputId = "cityplot"), type=6, color="#18BC9D"),plotOutput(outputId = "ordplot"),
-                                              plotlyOutput(outputId = "corplot"),verbatimTextOutput("info"),
+                                     fluidRow(tableOutput("cityrisk"),withSpinner(plotOutput(outputId = "cityplot"), type=6, color="#18BC9D"),includeMarkdown("frequencyplot.md"),
+                                              plotOutput(outputId = "ordplot"),includeMarkdown("ordination.md"),
+                                              plotlyOutput(outputId = "corplot"),verbatimTextOutput("info"),includeMarkdown("interaction.md"),
                                               plotOutput(outputId="networkplot")),
                                      # Create a new Row in the UI for selectInputs
                                      fluidRow(

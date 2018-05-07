@@ -1,0 +1,2 @@
+Above is the average ranking for each of the consequences for the department/division. 
+The wordcloud below represents the top 60 words in the risk statements used by the department/division. Only the "Then" and "So" part of the risk statement were used in this classification. 
