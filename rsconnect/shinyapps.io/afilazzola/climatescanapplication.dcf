@@ -1,0 +1,12 @@
+name: climatescanapplication
+title:
+username:
+account: afilazzola
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 338665
+bundleId: 1364965
+url: https://afilazzola.shinyapps.io/climatescanapplication/
+when: 1525880735.21606
+asMultiple: FALSE
+asStatic: FALSE

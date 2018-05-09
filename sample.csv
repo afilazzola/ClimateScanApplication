@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type="application/shiny-singletons">5e0f88febb86f96c0520e14c578ee14ba67872b6,abbc5191535f7e95ba1254171676097ac26b5edc,93265af5ae8b86889d094456aadbb722300d9aeb,b90fa15116b628de39a7ea5330ae02d09e99f13a</script>
+  <script type="application/html-dependencies">json2[2014.02.04];jquery[1.12.4];shiny[1.0.5];selectize[0.11.2];font-awesome[4.7.0];bootstrap[3.3.7];htmlwidgets[1.2];plotly-binding[4.7.1];datatables-css[0.0.0];datatables-binding[0.4];crosstalk[1.0.0]</script>
+<script src="shared/json2-min.js"></script>
+<script src="shared/jquery.min.js"></script>
+<link href="shared/shiny.css" rel="stylesheet" />
+<script src="shared/shiny.min.js"></script>
+<link href="shared/selectize/css/selectize.bootstrap3.css" rel="stylesheet" />
+<!--[if lt IE 9]>
+<script src="shared/selectize/js/es5-shim.min.js"></script>
+<![endif]-->
+<script src="shared/selectize/js/selectize.min.js"></script>
+<link href="shared/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="shared/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<script src="shared/bootstrap/js/bootstrap.min.js"></script>
+<script src="shared/bootstrap/shim/html5shiv.min.js"></script>
+<script src="shared/bootstrap/shim/respond.min.js"></script>
+<script src="htmlwidgets-1.2/htmlwidgets.js"></script>
+<script src="plotly-binding-4.7.1/plotly.js"></script>
+<link href="datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="datatables-binding-0.4/datatables.js"></script>
+<link href="crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="crosstalk-1.0.0/js/crosstalk.min.js"></script>  <link rel="stylesheet" type="text/css" href="shinythemes/css/flatly.min.css"/>
+  <link rel="stylesheet" href="assets/spinner.css"/>
+  <link rel="stylesheet" href="css-loaders/css/fallback.css"/>
+  <link rel="stylesheet" href="css-loaders/css/load6.css"/>
+  <style>#spinner-9d8f046838e81164f26d5a9e291f6ab8 {color: #18BC9D}</style>
+  <style>#spinner-9d8f046838e81164f26d5a9e291f6ab8 {font-size: 68px}spinner-9d8f046838e81164f26d5a9e291f6ab868</style>
+  <style>#spinner-2561219b5c13bf3cfc24cf5307c81bb9 {color: #18BC9D}</style>
+  <style>#spinner-2561219b5c13bf3cfc24cf5307c81bb9 {font-size: 68px}spinner-2561219b5c13bf3cfc24cf5307c81bb968</style>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <form class="well">
+          <div class="form-group shiny-input-container">
+            <label>Choose a File</label>
+            <div class="input-group">
+              <label class="input-group-btn">
+                <span class="btn btn-default btn-file">
+                  Browse...
+                  <input id="infile" name="infile" type="file" style="display: none;"/>
+                </span>
+              </label>
+              <input type="text" class="form-control" placeholder="No file selected" readonly="readonly"/>
+            </div>
+            <div id="infile_progress" class="progress progress-striped active shiny-file-input-progress">
+              <div class="progress-bar"></div>
+            </div>
+          </div>
+          <div class="form-group shiny-input-container">
+            <label class="control-label" for="department">Departments</label>
+            <div>
+              <select id="department"><option value="" selected>Choose</option></select>
+              <script type="application/json" data-for="department">{}</script>
+            </div>
+          </div>
+          <a id="demo" class="btn btn-default shiny-download-link " href="" target="_blank" download>
+            <i class="fa fa-download"></i>
+            Download the data
+          </a>
+        </form>
+      </div>
+      <div class="col-sm-8">
+        <div class="tabbable">
+          <ul class="nav nav-tabs" data-tabsetid="7961">
+            <li class="active">
+              <a href="#tab-7961-1" data-toggle="tab" data-value="ReadMe">ReadMe</a>
+            </li>
+            <li>
+              <a href="#tab-7961-2" data-toggle="tab" data-value="Department">Department</a>
+            </li>
+            <li>
+              <a href="#tab-7961-3" data-toggle="tab" data-value="Corporate">Corporate</a>
+            </li>
+          </ul>
+          <div class="tab-content" data-tabsetid="7961">
+            <div class="tab-pane active" data-value="ReadMe" id="tab-7961-1">
+              <div class="container-fluid">
+                <div id="inc" class="shiny-html-output"></div>
+                <h3>ReadMe</h3>
+
+<p>The file input must have a specific format for this application to analyze it successfully. The file should be a comma separated file (.csv) and should have no missing cells, merge cells, or unique characters (i.e. letters, numbers, and spaces only). The following columns should be in the dataset spelled as is and it is case-sensitive:</p>
+
+<ul>
+<li><p>Department</p></li>
+<li><p>Sub-Identifier</p></li>
+<li><p>If</p></li>
+<li><p>Then</p></li>
+<li><p>So</p></li>
+<li><p>CurrentScenario</p></li>
+<li><p>FutureScenario</p></li>
+<li><p>Financial</p></li>
+<li><p>Damage.Property.Technology</p></li>
+<li><p>People</p></li>
+<li><p>Environment</p></li>
+<li><p>Business.Continuity</p></li>
+<li><p>Reputation</p></li>
+<li><p>Critical.Infra</p></li>
+</ul>
+
+              </div>
+            </div>
+            <div class="tab-pane" data-value="Department" id="tab-7961-2">
+              <script src="assets/spinner.js"></script>
+              <div class="shiny-spinner-output-container">
+                <div class="load-container load6">
+                  <div id="spinner-9d8f046838e81164f26d5a9e291f6ab8" class="loader">Loading...</div>
+                </div>
+                <div style="height:400px" class="shiny-spinner-placeholder"></div>
+                <div id="contents" class="shiny-html-output"></div>
+              </div>
+              <div id="riskPlot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+              <p>This figure represents the total number of risks identified based on each climate event. </p>
+
+              <div id="consPlot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+              <p>Above is the average ranking for each of the consequences for the department/division. 
+The wordcloud below represents the top 60 words in the risk statements used by the department/division. Only the &ldquo;Then&rdquo; and &ldquo;So&rdquo; part of the risk statement were used in this classification. </p>
+
+              <div id="wordcloud" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+            </div>
+            <div class="tab-pane" data-value="Corporate" id="tab-7961-3">
+              <div class="container-fluid">
+                <div class="row">
+                  <div id="cityrisk" class="shiny-html-output"></div>
+                  <div class="shiny-spinner-output-container">
+                    <div class="load-container load6">
+                      <div id="spinner-2561219b5c13bf3cfc24cf5307c81bb9" class="loader">Loading...</div>
+                    </div>
+                    <div id="cityplot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+                  </div>
+                  <p>This figure represents the total number of risks identified based on each climate event. </p>
+
+                  <div id="ordplot" class="shiny-plot-output" style="width: 100% ; height: 400px"></div>
+                  <p>The ordination figure above illustrates divisions that are closer together as having similar rankings for respective consequences. If a department/division frequently ranked a consequence as high, the department/division would orient more closely to that text. This graphic thus illustrates trends of association among both departments/divisions and consequences. Using this graphic can help highlight opportunities for collaboration among departments/divisions that share concerns for the same consequences. </p>
+
+                  <div id="corplot" style="width:100%; height:400px; " class="plotly html-widget html-widget-output"></div>
+                  <p>The correlation graphic above and interaction network below each illustrates how various departments/divisions within the corporation share similar climate risks and the consequences to their operations. If two departments/divisions shared the same language for defining a risk, these were counted as an interacting risk value. Colours in the correlation matrix above correspond to the number of correlation and the interactive plot allows for easy identified of departments that have overlapping risks. </p>
+
+                </div>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="form-group shiny-input-container">
+                      <label class="control-label" for="riskType">Risk Type:</label>
+                      <div>
+                        <select id="riskType"><option value="Max" selected>Max</option>
+<option value="Sum">Sum</option></select>
+                        <script type="application/json" data-for="riskType" data-nonempty="">{}</script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-group shiny-input-container">
+                      <label class="control-label" for="CurrentRisk">Current Risk:</label>
+                      <div>
+                        <select id="CurrentRisk"><option value="All" selected>All</option>
+<option value="Low Risk">Low Risk</option>
+<option value="Medium Risk">Medium Risk</option>
+<option value="High Risk">High Risk</option>
+<option value="Extreme Risk">Extreme Risk</option></select>
+                        <script type="application/json" data-for="CurrentRisk" data-nonempty="">{}</script>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="form-group shiny-input-container">
+                      <label class="control-label" for="FutureRisk">Future Risk:</label>
+                      <div>
+                        <select id="FutureRisk"><option value="All" selected>All</option>
+<option value="Low Risk">Low Risk</option>
+<option value="Medium Risk">Medium Risk</option>
+<option value="High Risk">High Risk</option>
+<option value="Extreme Risk">Extreme Risk</option></select>
+                        <script type="application/json" data-for="FutureRisk" data-nonempty="">{}</script>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div id="table" style="width:100%; height:auto; " class="datatables html-widget html-widget-output"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

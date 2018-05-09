@@ -1,17 +1,18 @@
 risk.calc <- function(x){
-df <- read.csv(x, stringsAsFactors = FALSE)
-df[is.na(df)] <- 0
+require(dplyr)
+df.in <- read.csv(x, stringsAsFactors = FALSE)
+df.in[is.na(df.in)] <- 0
 
 ## Calculate the maximum and summed values for all consequences
-df[,"max.consequence"] <- df %>% select(Financial,Damage.Property.Technology,People,Environment,Business.Continuity,Reputation,Critical.Infra) %>% apply(., 1, max)
-df[,"sum.consequence"] <- df %>% select(Financial,Damage.Property.Technology,People,Environment,Business.Continuity,Reputation,Critical.Infra) %>% apply(., 1, sum, na.rm=T)
+df.in[,"max.consequence"] <- df.in %>% select(Financial,Damage.Property.Technology,People,Environment,Business.Continuity,Reputation,Critical.Infra) %>% apply(., 1, max)
+df.in[,"sum.consequence"] <- df.in %>% select(Financial,Damage.Property.Technology,People,Environment,Business.Continuity,Reputation,Critical.Infra) %>% apply(., 1, sum, na.rm=T)
 
 
 ## Create risk data frames with value and quantification
 current.risk.vals <- data.frame(CurrentScenario=c("Rare","Unlikely","Likely","Very Likely","Almost Certain"), current.val=c(1,2,3,4,5))
 future.risk.vals <- data.frame(FutureScenario=c("Rare","Unlikely","Likely","Very Likely","Almost Certain"),  future.val=c(1,2,3,4,5))
-df1 <- merge(df, current.risk.vals, by=c("CurrentScenario"))
-df2 <- merge(df1, future.risk.vals, by=c("FutureScenario"))
+df.in1 <- merge(df.in, current.risk.vals, by=c("CurrentScenario"))
+df.in2 <- merge(df.in1, future.risk.vals, by=c("FutureScenario"))
 
 
 ## calculates maximum risk rating qualitative
@@ -63,20 +64,20 @@ sum.riskrating <- function(x, y) {
 
 
 ## Maximum current risk rating qualitative
-for(i in 1:nrow(df2)){
-  df2[,"max.current.qual"] <- max.riskrating(x=df2$max.consequence,y=df2$current.val)
+for(i in 1:nrow(df.in2)){
+  df.in2[,"max.current.qual"] <- max.riskrating(x=df.in2$max.consequence,y=df.in2$current.val)
 }
 ## Maximum future risk rating qualitative
-for(i in 1:nrow(df2)){
-  df2[,"max.future.qual"] <- max.riskrating(x=df2$max.consequence,y=df2$future.val)
+for(i in 1:nrow(df.in2)){
+  df.in2[,"max.future.qual"] <- max.riskrating(x=df.in2$max.consequence,y=df.in2$future.val)
 }
 ## Sum current risk rating qualitative
-for(i in 1:nrow(df2)){
-  df2[,"sum.current.qual"] <- sum.riskrating(x=df2$sum.consequence,y=df2$current.val)
+for(i in 1:nrow(df.in2)){
+  df.in2[,"sum.current.qual"] <- sum.riskrating(x=df.in2$sum.consequence,y=df.in2$current.val)
 }
 ## Sum future risk rating qualitative
-for(i in 1:nrow(df2)){
-  df2[,"sum.future.qual"] <- sum.riskrating(x=df2$sum.consequence,y=df2$future.val)
+for(i in 1:nrow(df.in2)){
+  df.in2[,"sum.future.qual"] <- sum.riskrating(x=df.in2$sum.consequence,y=df.in2$future.val)
 }
 
 
@@ -88,10 +89,10 @@ risk.values$risk.quant[risk.values$risk.qual  %in%  x] ## find and replace risk 
 }
 
 ## use function for each column  of max and su,
-df2[,"max.current.quant"] <- unlist(lapply(df2$max.current.qual,risk.num))  ## max current 
-df2[,"max.future.quant"] <- unlist(lapply(df2$max.future.qual,risk.num))  ## max future
-df2[,"sum.current.quant"] <- unlist(lapply(df2$sum.current.qual,risk.num))  ## sum current 
-df2[,"sum.future.quant"] <- unlist(lapply(df2$sum.future.qual,risk.num))  ## sum future
+df.in2[,"max.current.quant"] <- unlist(lapply(df.in2$max.current.qual,risk.num))  ## max current 
+df.in2[,"max.future.quant"] <- unlist(lapply(df.in2$max.future.qual,risk.num))  ## max future
+df.in2[,"sum.current.quant"] <- unlist(lapply(df.in2$sum.current.qual,risk.num))  ## sum current 
+df.in2[,"sum.future.quant"] <- unlist(lapply(df.in2$sum.future.qual,risk.num))  ## sum future
 
-return(df2)
+return(df.in2)
 }
