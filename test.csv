@@ -1,0 +1,597 @@
+Department,Division,If,Then,So,CurrentScenario,FutureScenario,Financial,Damage.Property.Technology,People,Environment,Business.Continuity,Reputation,Critical.Infra
+COM,Natural Environment,More Ice Storms,shifts in natural vegetation,"Increase in budget potentially, and increased need for public outreach and education",Rare,Unlikely,1,1,1,3,1,2,1
+FSL,Public Health and EMS,More Intense Rainfalls,Road closures from flooding,impacts accessibility of EMS and investigations of public health,Unlikely,Likely,2,1,1,1,3,2,1
+TRANS,Transportation Services,More Heat Waves,health risks to public outdoors,transit stops require more shade or cooling,Likely,Very Likely,5,1,2,2,1,3,2
+COM,Natural Environment,More Freeze-Thaw Cycles,less ice cover on water bodies,Increased public safety risks (e.g. kids skating on ponds),Likely,Almost Certain,2,1,5,1,1,4,1
+CORP,Recreation & Culture,More Rain / Snow in Winter,not enough staff or resources,Halt and suspension in programs.,Rare,Unlikely,2,3,1,1,2,1,1
+ENV,Roads & Traffic Operations,"Others
+(e.g., higher wind speeds)",increase in building code changes,increased need for training staff on new changes (operational costs),Likely,Very Likely,1,1,1,1,1,1,1
+COM,Natural Environment,More Intense Rainfalls,higher tree mortality,"Increased need for planting resilient species, to help accommodate storm water runoff (soil cells & connected tree trench).",Unlikely,Very Likely,2,1,1,1,1,1,1
+CORP,Public Works Operations,Higher Average Temperatures,road damage,"increased resources to maintain, need to develop new standards",Rare,Likely,3,1,3,3,3,2,3
+CORP,Public Works Operations,More Ice Storms,health impacts,"more staff hours, more de-icing equipment (salt etc.) more trucks and salters",Unlikely,Likely,3,3,3,3,3,3,3
+TECH,Corporate Services,All Extreme Weather,impacts the management of infrastructure,management of existing infrastructure,Likely,Very Likely,2,3,2,4,3,3,3
+WATER,Environmental Services,More Intense Rainfalls,increased water inflow-rate,less capacity to manage water,Likely,Very Likely,2,2,1,3,3,2,3
+CORP,Public Works Operations,More Rain / Snow in Winter,salt or sand application,increased salt use bad for local water bodies,Very Likely,Almost Certain,3,3,3,3,3,3,3
+COM,Natural Environment,More Dry Spells,higher demand for irrigation,Increased consumption and costs.,Likely,Very Likely,2,1,1,1,1,1,1
+ENV,Policy Planning,More Freeze-Thaw Cycles,shifts in natural vegetation,Change to tree planting lists.,Very Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Fire,More Rain / Snow in Winter,delayed emergency response,"Snowplows are called for each fir station, more staffing and more equipment.",Likely,Very Likely,4,3,3,2,4,4,4
+CORP,Public Works Operations,More Intense Rainfalls,infrastructure damage,reconsider design and engineering standards (e.g. confecting infrastructure),Unlikely,Very Likely,4,4,4,4,4,4,4
+TRANS,Human Resources,More Ice Storms,Higher reliance on external systems,More claims and resources needed,Rare,Unlikely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,Failure of copying,"staff carrying branches (very heavy) on slippery surfaces (increased injury), more staff hours",Unlikely,Likely,3,1,3,4,3,4,4
+TRANS,Human Resources,More Ice Storms,less available work hours,"Need for more warming centres necessary for staff. Need a decision framework (who makes the calls, and when).",Unlikely,Unlikely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,sidewalk damage,NA,Likely,Very Likely,3,2,2,2,2,2,2
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",greater power outages,"More staffing, fleet vehicles, for maintenance for tree trimming, and to repair power outages.",Rare,Unlikely,3,3,3,3,3,3,3
+TRANS,Financial Services,More Heat Waves,less water available,"Increase in revenue and adjust long term infrastructure plans, and by-laws.",Likely,Very Likely,3,1,1,1,2,1,1
+COM,Natural Environment,More Heat Waves,lower water table,"Reduced baseflow in streams, increased ET in ponds, reduced pond water levels (if they are replenished by groundwater).",Unlikely,Very Likely,1,1,1,4,1,1,1
+TRANS,Human Resources,"Others
+(e.g., higher wind speeds)",greater power outages,"More staffing for maintenance for tree trimming, and to repair power outages.",Likely,Very Likely,1,1,1,1,2,1,1
+COM,Natural Environment,More Intense Rainfalls,revise storm ponds,Accommodate these based on expected increase in water quantity. Impacts AM replacement strategies,Likely,Likely,2,2,2,3,2,2,2
+TRANS,Transportation Services,More Intense Rainfalls,Loss of facilities and sites because of flooding,greater need to manage sites,Likely,Very Likely,3,2,2,3,3,3,2
+COM,Operations & Maintenance,More Intense Rainfalls,higher energy needs,"Increase in electricity equipment level, and operating time (increase in costs).",Likely,Very Likely,2,3,1,1,3,2,1
+CORP,Public Works Operations,Extended Spring/Fall,increased landscaping,increased costs,Likely,Very Likely,3,2,2,2,2,3,2
+TRANS,Transportation Services,More Heat Waves,Work hours for employees decrease or become more variable,"more staff resources, impacts collective agreement, and staff health risks",Likely,Very Likely,2,1,2,1,2,2,2
+CORP,Fire,More Dry Spells,wildfires,NA,Unlikely,Likely,4,4,4,3,4,4,4
+ENV,Policy Planning,More Intense Rainfalls,erosion,NA,Likely,Very Likely,1,1,1,1,2,1,1
+TRANS,Transportation Services,More Dry Spells,increase dust blowing around,increase in complains by public,Rare,Unlikely,1,1,1,1,1,1,1
+CORP,Recreation & Culture,More Freeze-Thaw Cycles,property damage,Higher need for maintenance and costs and/or building replacements.,Very Likely,Almost Certain,3,2,2,1,1,1,1
+CORP,Legal Services,More Heat Waves,health impacts,Increased liability and complaints.,Very Likely,Almost Certain,3,2,3,3,1,2,3
+CORP,Public Works Operations,More Freeze-Thaw Cycles,more pipes freezing,increase repair & lack of water for residents,Unlikely,Likely,3,3,3,3,3,3,3
+FSL,Public Health and EMS,All Extreme Weather,support services will need to respond and increase demand on health system,Decreased availability in beds and capacity issues,Unlikely,Likely,3,1,3,1,3,2,1
+COM,Natural Environment,More Ice Storms,greater power outages,"Increased need for backup generators, AM planning needs to consider this impact when planning for new assets",Unlikely,Likely,2,2,2,1,3,2,3
+TECH,Corporate Services,All Extreme Weather,media sensationalized,"misleading ""unsafe"" conditions",Very Likely,Almost Certain,1,1,2,1,2,1,1
+CORP,Public Works Operations,Extended Spring/Fall,health impacts,"increased claims, costs to town",Unlikely,Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Ice Storms,delayed emergency response,"More corporate planning to get staff to work, reduce level of response (at a certain point, it's too dangerous for emergency services to go on duty).",Unlikely,Very Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,Higher Average Temperatures,Greater need for splash pads,Extended hours and openings beyond Labour Day - into full season.,Very Likely,Almost Certain,2,2,2,2,2,2,2
+CORP,Public Works Operations,Extended Spring/Fall,Outdoor ice can't be maintained.,Outdoor skate trail would be limited in use.,Very Likely,Almost Certain,2,2,2,2,2,2,2
+COM,Design & Construction,More Intense Rainfalls,infrastructure damage,"Increase public safety concerns, and more damage to properties (increased costs).",Very Likely,Almost Certain,2,2,1,1,3,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,more snow on roads,More health and safety issues and building damage.,Likely,Very Likely,3,2,2,2,3,2,2
+ENV,Development Planning,"Others
+(e.g., higher wind speeds)",policy gaps,guidelines/ policies,Very Likely,Almost Certain,1,1,1,1,1,1,1
+CORP,Recreation & Culture,Higher Average Temperatures,Lack of snow for winter activities.,"Cancellation of activities - skating, snow skiing, etc.",Likely,Very Likely,1,1,1,1,1,1,1
+WATER,Environmental Services,More Rain / Snow in Winter,more snow removal services,increase costs for snow management,Unlikely,Likely,2,1,1,1,2,2,1
+CORP,Public Works Operations,More Ice Storms,harder for staff to get to workplace ,lack of staff to complete work,Unlikely,Likely,1,1,1,1,1,1,1
+CORP,Legal Services,More Heat Waves,Greater need for cooling centres,Need to include cooling centres into Richmond Hill events and throughout the Town to reduce liability.,Very Likely,Almost Certain,1,1,3,2,3,3,2
+CORP,Recreation & Culture,More Heat Waves,health impacts,"Increased demand for emergency responses, EMS must be notified. Events can be cancelled.",Likely,Very Likely,1,1,2,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,impacts public events,"Less revenue from all winter activities (skiing, skating, etc.), and events.",Likely,Likely,3,2,2,2,2,3,2
+ENV,Development Planning,More Intense Rainfalls,policy gaps,e.g. Water balance compensation funds-  how to implement ? (If WB cant be met),Likely,Very Likely,2,2,1,1,1,2,1
+WATER,Environmental Services,More Dry Spells,increase dust risk at construction sites,increase costs,Likely,Very Likely,2,2,1,3,1,2,1
+ENV,Policy Planning,More Heat Waves,Less walking & cycling,more parking,Likely,Likely,1,1,1,1,1,1,1
+CORP,Fire,"Others
+(e.g., higher wind speeds)",higher tree mortality,trees will fall down and RH staff will be responsible for this,Unlikely,Likely,4,4,4,3,4,4,4
+TRANS,Financial Services,Wetter Springs/Fall,flooding,"Increased risks of leaks in facilities, more maintenance or replacements required, more staff and or contractors to do this.",Likely,Very Likely,3,1,1,1,1,2,1
+CORP,Public Works Operations,More Ice Storms,increased public safety,More closures of public parks and trails.,Likely,Likely,3,2,2,2,2,2,2
+CORP,Recreation & Culture,More Heat Waves,Greater need for cooling centres,"Program may need to shift (e.g. later start date), and staff utility cost shift.",Likely,Very Likely,3,1,1,1,2,1,1
+ENV,Capital Delivery,More Intense Rainfalls,increased need for stormwater management,need new innovations (LID) on landscape,Very Likely,Almost Certain,4,3,3,3,3,3,3
+FSL,Public Health and EMS,Extended Spring/Fall,Spread of more diseases/viruses,Human + animals at risk of rabies,Rare,Unlikely,2,1,2,1,1,2,1
+CORP,Legal Services,More Freeze-Thaw Cycles,Increased sues against Town,More money paid by the Town to compensate.,Likely,Very Likely,3,2,3,3,1,2,3
+CORP,Public Works Operations,More Intense Rainfalls,flooding,limited equipment & fleet availability,Likely,Very Likely,3,2,3,2,1,1,2
+TRANS,Financial Services,More Intense Rainfalls,off-trail damage,More resources required to repair and maintain trails,Very Likely,Almost Certain,1,1,1,1,1,2,1
+TECH,Corporate Services,More Intense Rainfalls,issues with water runoff,increased pollution into water bodies,Likely,Very Likely,2,1,1,3,1,2,1
+ENV,Development Planning,Higher Average Temperatures,shift from natural gas to electricity,need to look at more summer managing for energy,Likely,Almost Certain,1,1,1,1,1,1,1
+ENV,Capital Delivery,More Intense Rainfalls,policy gaps,e.g. Water balance compensation funds-  how to implement ? (If WB cant be met),Likely,Very Likely,4,2,3,4,2,3,2
+CORP,Public Works Operations,Extended Spring/Fall,Winter maintenance closures,"Need to adjust winter maintenance periods, communicate with public",Likely,Very Likely,3,2,2,2,3,3,3
+CORP,Public Works Operations,Extended Spring/Fall,More competition for resources.,delays and implications,Rare,Likely,4,3,4,3,3,2,3
+FSL,Public Health and EMS,"Others
+(e.g., higher wind speeds)",increase risk to public health and safety,parks and recreation activities,Unlikely,Unlikely,5,5,5,5,5,5,5
+CORP,Public Works Operations,More Intense Rainfalls,erosion,emergency works and replacements,Very Likely,Almost Certain,3,2,2,2,2,3,2
+CORP,Recreation & Culture,"Others
+(e.g., higher wind speeds)",greater power outages,"Computers, lights, all facilities down (cancellations), loss in revenue.",Almost Certain,Almost Certain,2,1,1,1,2,1,2
+FSL,Public Health and EMS,More Heat Waves,Fire risk increased,complaints and health risks of pollutants being blown down wind,Unlikely,Likely,3,1,2,2,3,3,1
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",transporation difficulty,"Impact mail and courier services to town facilities and staff, residents, mayor and member of council. More thought on alternative ways to deliver supplies.",Unlikely,Very Likely,3,3,3,3,3,3,3
+FSL,Public Health and EMS,Extended Spring/Fall,Outdoor events and farmer markets become more common,beach and food inspections are required more frequently,Rare,Unlikely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,#VALUE!,people slip and fall in parking lots,Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,More Heat Waves,increased grass cutting,NA,Unlikely,Almost Certain,3,1,3,1,3,1,1
+COM,Finance and Legal,More Dry Spells,Fire risk increased,York region is not insured for fire,Unlikely,Likely,3,4,3,4,3,4,3
+FSL,Public Health and EMS,More Freeze-Thaw Cycles,Damage to property and facilities and increased risk of staff injury,Complaints from residents and liability for public hleath,Unlikely,Likely,2,2,3,1,2,1,1
+COM,Natural Environment,"Others
+(e.g., higher wind speeds)",less available work hours,"Increased need for operation procedures which results in more training and deployment (more staff needed, increase in budget).",Likely,Very Likely,1,2,3,3,3,2,3
+TRANS,Financial Services,More Ice Storms,not enough staff or resources,"More staffing, more planning for these types of events, more resources for emergencies.",Rare,Unlikely,3,1,1,1,1,1,1
+CORP,Recreation & Culture,"Others
+(e.g., higher wind speeds)",At events stage lines can fail,"Heavier equipment is required, staff need to collapse tents, and events may be cancelled, causing a loss in revenue - vendors.",Rare,Unlikely,1,2,2,1,2,3,1
+WATER,Environmental Services,More Dry Spells,peak demand costs increase in summer for water and energy,need to prioritize what is need vs. desired,Likely,Very Likely,2,1,1,1,2,3,2
+FSL,Public Health and EMS,More Heat Waves,cooling centres are needed,greater accessibility required for access points,Likely,Very Likely,2,2,3,2,4,1,3
+CORP,Public Works Operations,More Intense Rainfalls,impacts to underground utilities,Communication between facilities and even to external internet may be affected residents may not be able to access town online services.,Likely,Very Likely,3,2,2,2,2,2,2
+TECH,Corporate Services,"Others
+(e.g., higher wind speeds)",increased UV radiation,greater reliance on indoor activities,Rare,Unlikely,1,1,3,1,2,1,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,higher tree mortality,Decline in tree health and increased tree mortality - increase in staff and budget to remove trees.,Likely,Likely,3,2,2,2,2,3,3
+ENV,Policy Planning,Extended Spring/Fall,shifts in natural vegetation,affect development potential of property,Likely,Very Likely,1,1,1,1,2,1,1
+TRANS,Transportation Services,More Dry Spells,Water cannot be used to clean roads or vehicles,Increased dirt on sidewalks and roads,Unlikely,Likely,1,1,1,2,1,1,1
+CORP,Public Works Operations,More Intense Rainfalls,flooding,"More costs to repair, and less public access (more complaints).",Likely,Very Likely,3,2,2,2,2,3,2
+TRANS,Human Resources,More Heat Waves,greater power outages,"Planning for power outages, work from home policy.",Unlikely,Likely,1,1,1,1,1,1,1
+TRANS,Transportation Services,More Dry Spells,increase dust blowing around,can cause health issues,Rare,Unlikely,1,1,1,1,1,1,1
+WATER,Environmental Services,More Intense Rainfalls,flooded residents,increase complaints and liability issues,Likely,Very Likely,2,1,1,2,1,2,1
+COM,Finance and Legal,More Ice Storms,shorter available work hours,Increase need to work from home and have that connectivity,Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,Wetter Springs/Fall,increased need for catch basin clearing,increased costs and service agreement,Likely,Very Likely,3,3,3,3,3,3,3
+ENV,Policy Planning,More Heat Waves,Need for emergency warming centres.,staffing and budgeting issues,Likely,Almost Certain,1,1,1,1,2,1,1
+COM,Natural Environment,More Dry Spells,greater demand of well water,Increased amount of public complaints and costs to the Town to accommodate this.,Unlikely,Likely,1,1,1,1,1,2,1
+TECH,Corporate Services,More Intense Rainfalls,greater impacts and damage to infrastructure,need for design modifications,Likely,Very Likely,2,3,1,1,2,1,2
+CORP,Public Works Operations,More Dry Spells,higher demand for irrigation,"More watering services, more staff and water use. More monitoring of evaporation",Very Likely,Almost Certain,3,2,2,2,2,3,3
+CORP,Public Works Operations,More Ice Storms,not enough staff or resources,Need to know what services (private sector ) that can help,Unlikely,Likely,4,3,2,3,3,4,4
+COM,Finance and Legal,All Extreme Weather,Increased clarity on the management of money,Need better collaboration within York Region,Likely,Very Likely,1,1,1,1,1,1,1
+TECH,Corporate Services,Extended Spring/Fall,Greater water usage for landscaping,reduced water availability,Unlikely,Very Likely,3,1,1,3,1,3,1
+TRANS,Financial Services,More Intense Rainfalls,Increased sues against Town,Higher need for resources or costs to pay out.,Likely,Very Likely,4,1,1,1,1,3,1
+TRANS,Financial Services,More Intense Rainfalls,infrastructure damage,Reconsider design and engineering standards (e.g. confecting infrastructure),Very Likely,Almost Certain,2,1,1,1,1,2,1
+ENV,Policy Planning,"Others
+(e.g., higher wind speeds)",trees will need better rooting to be more stable,`,Very Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,More Intense Rainfalls,off-trail damage,"Currently there is warning system, no warning signs - so we need to increase signage and warning systems",Likely,Very Likely,3,2,2,2,2,3,2
+ENV,Policy Planning,More Intense Rainfalls,loss of animal habitat,Staff to research impacts of this.,Very Likely,Almost Certain,1,1,1,1,2,1,1
+COM,Sustainability,More Heat Waves,staff safety,"impacts on scheduling, training needs, health and safety preparedness ",Likely,Very Likely,1,1,2,1,2,1,1
+TECH,Corporate Services,More Heat Waves,staff absenteeism,less work completed and more replacement staff,Unlikely,Likely,2,1,3,1,2,1,1
+COM,Operations & Maintenance,Extended Spring/Fall,project delays,More public complaints.,Very Likely,Almost Certain,3,2,1,1,4,2,2
+WATER,Environmental Services,More Intense Rainfalls,impacts erosion,needs monitoring and preventive planning,Likely,Very Likely,2,2,1,3,1,3,1
+TRANS,Regional Clerk,More Heat Waves,black outs impact electronic information collection and storage,Potential damage to or loss of records and information.,Rare,Unlikely,1,3,1,1,4,1,1
+TRANS,Human Resources,More Rain / Snow in Winter,not enough staff or resources,"stress on resources, increased risk of trips &slips and vehicle traffic and accidents",Likely,Very Likely,2,1,1,1,2,1,1
+COM,Natural Environment,More Heat Waves,higher energy needs,"Extended project timelines and less work completed in a period of time, the Town may need additional contracts and costs to accommodate this.",Very Likely,Almost Certain,2,1,1,1,1,2,1
+TRANS,Human Resources,More Rain / Snow in Winter,not enough staff or resources,"Need for more staffing, or need to hire contractors to remove the snow.",Likely,Likely,1,1,1,1,1,2,1
+CORP,Legal Services,More Ice Storms,staff safety,"Higher claims, more reporting",Likely,Very Likely,3,2,3,3,1,2,3
+WATER,Environmental Services,More Freeze-Thaw Cycles,Infrastructure and building damage,increased maintenance and costs,Likely,Very Likely,5,5,2,3,3,2,3
+TECH,Corporate Services,More Intense Rainfalls,increase water flow,flooding downstream,Very Likely,Almost Certain,3,3,2,3,3,2,3
+COM,Operations & Maintenance,More Heat Waves,increased building materials,Need updates to standards to change materials.,Very Likely,Almost Certain,3,2,1,1,3,1,1
+ENV,Capital Delivery,More Intense Rainfalls,flooding,increased complaints & outreach needed,Likely,Very Likely,4,2,2,2,2,2,2
+CORP,Public Works Operations,More Intense Rainfalls,erosion,Greater demands for staff and resources.,Likely,Very Likely,3,2,2,2,2,3,2
+COM,Operations & Maintenance,More Intense Rainfalls,erosion,Additional maintenance costs.,Very Likely,Almost Certain,3,2,1,1,2,1,1
+CORP,Communications,More Heat Waves,greater need for communication ,"Reactive does not work, planning this type of communication is essential.",Likely,Very Likely,1,1,3,1,1,2,1
+WATER,Environmental Services,More Intense Rainfalls,more yard waste,more capacity to manage yard waste,Likely,Very Likely,2,1,1,1,1,1,2
+TRANS,Transportation Services,More Freeze-Thaw Cycles,Increase salt use,increase resources for staff time and costs of salt,Likely,Very Likely,2,1,1,2,1,1,1
+COM,Natural Environment,More Rain / Snow in Winter,salt or sand application,"Negative impacts to infrastrucutre (concrete repair, etc.). Affects AM replacement planning",Very Likely,Almost Certain,2,1,1,3,1,1,1
+COM,Natural Environment,More Heat Waves,increased pests,The Town would have to address more public complaints and have to increase collection frequency (additional cost associated).,Very Likely,Almost Certain,2,1,1,1,1,2,1
+ENV,Policy Planning,More Heat Waves,Increased demand for drinking water in public areas,expand design to include them,Likely,Almost Certain,1,1,1,1,2,1,1
+TECH,Corporate Services,More Dry Spells,Fire risk increased,impacts to camping and fireworks that will cost revenue,Likely,Very Likely,2,3,3,3,3,3,3
+CORP,Recreation & Culture,More Rain / Snow in Winter,Neighbouring municipalities may be impacted.,More residents and staff helping other municipality for assistance.,Unlikely,Likely,1,1,1,1,1,1,1
+WATER,Environmental Services,More Heat Waves,increased odour from decreasing water quality,complaints from residents,Likely,Very Likely,2,1,1,1,1,3,2
+COM,Operations & Maintenance,More Ice Storms,greater power outages,Increased reliance on back-up generators and more GHGs created.,Rare,Unlikely,4,3,1,1,4,3,4
+FSL,Public Health and EMS,More Intense Rainfalls,Damage to facilities,Pressures on staff to inspect them,Unlikely,Likely,2,1,1,1,3,2,1
+TECH,Corporate Services,More Heat Waves,people outside more likely to get sun damage,Education to the public is important,Likely,Almost Certain,2,1,3,1,1,1,1
+COM,Natural Environment,More Rain / Snow in Winter,less available work hours,The Town may require additional seasonal staff.,Likely,Very Likely,1,1,2,2,2,2,1
+CORP,Public Works Operations,Extended Spring/Fall,changes in seasonal scheduling,summer students not available or have to stay later more seasonal impacts,Likely,Almost Certain,4,1,1,1,1,1,1
+CORP,Public Works Operations,More Intense Rainfalls,erosion,Cancellations of programs.,Likely,Very Likely,3,1,3,1,3,1,1
+CORP,Public Works Operations,More Heat Waves,greater demand of well water,Need for alternative water sources and plans for water shortages --> storage and budget.,Likely,Almost Certain,2,2,2,2,2,2,2
+ENV,Policy Planning,More Intense Rainfalls,flooding,lower water quality,Likely,Very Likely,1,1,1,1,2,1,1
+WATER,Environmental Services,Extended Spring/Fall,new species in region,need to respond to invasive species,Likely,Very Likely,4,3,1,2,3,1,2
+FSL,Public Health and EMS,More Intense Rainfalls,flooding,increased risk of mold,Unlikely,Likely,2,2,1,3,3,2,3
+CORP,Public Works Operations,More Heat Waves,less available work hours,shift in hours or WM work schedule,Likely,Almost Certain,2,2,2,2,2,2,2
+CORP,Fire,More Heat Waves,staff safety,"More staffing required, more breaks.",Likely,Almost Certain,3,2,3,2,2,2,2
+CORP,Public Works Operations,More Heat Waves,equipment damage,NA,Likely,Very Likely,3,3,3,3,3,3,3
+COM,Natural Environment,More Rain / Snow in Winter,Increased demand for rain gardens ,Increased staff to meet demand. Costs will increased for more staff and potentially from switching plants.,Rare,Unlikely,2,1,1,2,1,1,1
+CORP,Communications,More Ice Storms,longer work hours,Emotional well being and physical well being effected.,Rare,Unlikely,1,1,5,2,3,2,2
+COM,Natural Environment,More Freeze-Thaw Cycles,damage to waste bins,"Additional complaints from residents and the Town may have to replace a higher number of bins, increasing operational costs.",Unlikely,Likely,1,1,1,1,1,1,1
+TECH,Corporate Services,"Others
+(e.g., higher wind speeds)",Wind damage to properties,Isolated incidents that have severe damage,Unlikely,Likely,2,2,2,1,2,1,2
+ENV,Roads & Traffic Operations,More Heat Waves,"may be demands to change requirements, by- laws",increased costs,Unlikely,Almost Certain,2,1,2,1,2,1,1
+WATER,Environmental Services,More Dry Spells,shift in bylaw requirements to restrict water use,residents complain,Unlikely,Likely,2,1,3,1,3,4,4
+CORP,Fire,More Intense Rainfalls,fire responses because of flooding,"Better planning and infrastructure to make us more prepared for next time, fires services shut down power for residents, and this requires more staffing, better communication required, hazardous risk assessments required.",Likely,Very Likely,4,2,3,2,4,3,4
+CORP,Recreation & Culture,All Extreme Weather, staff trying to learn from climate variation,"Need to re-examine policies and procedures in place, and develop new ones for preparedness.",Unlikely,Likely,2,2,2,1,2,2,1
+CORP,Public Works Operations,More Dry Spells,"Need for adapting plantings to incorporate fewer annuals, more perennials",increased complaints from public,Very Likely,Almost Certain,3,2,2,2,2,3,2
+COM,Operations & Maintenance,More Dry Spells,less water available,"Restricted hours for use and pool use, and water use.",Unlikely,Likely,1,2,1,1,4,3,4
+TRANS,Human Resources,More Freeze-Thaw Cycles,staff safety,More resources used in HR for management of these cases.,Unlikely,Likely,2,1,3,1,2,1,1
+TRANS,Financial Services,More Ice Storms,more pipes freezing,"Residential repair, support, high costs and services, replacement.",Rare,Unlikely,3,2,1,1,2,2,2
+CORP,Public Works Operations,More Heat Waves,Greater need for cooling centres,More staffing and equipment required,Likely,Almost Certain,2,2,2,2,2,2,2
+CORP,Fire,More Ice Storms,greater tree pruning,Emergency preparedness- priority plans,Likely,Very Likely,4,4,4,3,4,4,4
+CORP,Public Works Operations,Higher Average Temperatures,Less walking & cycling,greater need for maintenance resources,Unlikely,Very Likely,3,3,3,2,3,3,3
+TECH,Corporate Services,More Intense Rainfalls,flood plain mapping needs to be revised,building locations need to be changed,Unlikely,Likely,2,2,1,1,1,1,2
+WATER,Environmental Services,More Heat Waves,new species in region,need to respond to invasive species,Likely,Very Likely,3,3,2,4,1,2,1
+WATER,Environmental Services,More Dry Spells,water restrictions from other municipalities,revisit contracts with other cities,Unlikely,Likely,4,3,3,2,4,5,4
+TRANS,Transportation Services,More Heat Waves,Greater demand for electricity,High probability of blackouts,Likely,Very Likely,4,2,3,1,4,4,5
+FSL,Public Health and EMS,More Rain / Snow in Winter,Increase usage of types to reduce ice/snow,decreased in water quality and salinity getting into water tables,Unlikely,Likely,1,1,1,3,1,2,1
+CORP,Legal Services,"Others
+(e.g., higher wind speeds)",Damage to park facilities,"Risk to public and staff, need for higher budget and more staff.",Likely,Very Likely,3,2,3,3,1,2,3
+ENV,Policy Planning,More Intense Rainfalls,flooding,Degradation of natural systems.,Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,More Intense Rainfalls,erosion,emergency works and replacements,Likely,Very Likely,2,2,2,2,2,1,1
+TECH,Corporate Services,More Ice Storms,impacts ability to move around,less work completed and more replacement staff,Likely,Very Likely,2,1,2,1,2,1,1
+TRANS,Transportation Services,More Freeze-Thaw Cycles,increase ice on street and trees,increase damage/replacement to reduce liability,Likely,Very Likely,2,3,2,1,2,1,2
+CORP,Public Works Operations,More Heat Waves,increased grass cutting,NA,Unlikely,Almost Certain,3,2,2,2,3,2,2
+ENV,Capital Delivery,More Dry Spells,less water available,emergency water supplies/ contingency somewhere,Unlikely,Likely,1,3,2,3,2,2,2
+CORP,Recreation & Culture,More Heat Waves,Outdoor camps and other programs need relief to cool off.,"Campers and users will have to go indoors more often and use indoor space. This restricts physical activities and limits programming (e.g. tennis camp, bonfires, other outdoor activities).",Very Likely,Almost Certain,2,2,2,1,2,2,1
+COM,Natural Environment,More Dry Spells,loss of soil fertility,"Replace soils, requiring additional costs and staff.",Unlikely,Likely,1,2,1,1,1,1,1
+TECH,Corporate Services,More Heat Waves,greater reliance on passive cooling in buildings,new policy or building design requirements,Likely,Very Likely,3,1,1,1,1,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,More staff on standby,"increase in staff over time hours, could impact CUPE vs Contract negotiations and hence increased costs to the town",Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,More Intense Rainfalls,impacts public events,"Revenue lost, more indoor activities and spaces required, more land development planning.",Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,More Intense Rainfalls,less available work hours,delays,Rare,Likely,3,3,1,2,4,2,3
+COM,Operations & Maintenance,More Heat Waves,greater power outages,"Additional costs. Increase corporate costs on energy monitoring and forecasting, increase service costs to communities, challenges for Town to communicate with residents.",Unlikely,Very Likely,4,2,1,2,4,3,2
+COM,Design & Construction,More Intense Rainfalls,increased need for stormwater management,Need for assessments to be conducted to monitor spatial I&I concerns.,Very Likely,Almost Certain,2,2,1,3,1,2,3
+TRANS,Transportation Services,More Intense Rainfalls,Could require different road materials based on storm frequency,Need to revise road policies and conduct more research,Unlikely,Likely,4,4,2,3,3,2,4
+ENV,Policy Planning,Wetter Springs/Fall,Oversaturated soil,Lack of absorption and ultimate increase to overland flows.,Very Likely,Almost Certain,4,1,1,1,4,2,1
+CORP,Recreation & Culture,All Extreme Weather,greater power outages,"Centres with fitness facilities (pools with showers) open up to public as emergency support (cooling, power regeneration). This impacts regularly scheduled programs and staff. Increases reliance on generators.",Unlikely,Likely,1,1,1,1,2,1,1
+COM,Natural Environment,More Intense Rainfalls,increased need for stormwater management,Need for assessments to be conducted to monitor spatial storm I&I concerns.,Very Likely,Almost Certain,1,1,1,2,1,1,1
+CORP,Public Works Operations,More Heat Waves,Greater need for cooling centres,increased use of water,Likely,Almost Certain,3,2,1,1,1,3,3
+ENV,Policy Planning,More Intense Rainfalls,reduces field use (soccer),NA,Likely,Very Likely,1,1,1,1,2,1,1
+ENV,Policy Planning,More Dry Spells,infrastructure damage,NA,Unlikely,Likely,1,1,1,1,2,1,1
+TRANS,Human Resources,"Others
+(e.g., higher wind speeds)",facilities damage,Increase in budget and staff to repair facilities.,Unlikely,Likely,1,1,1,1,1,1,1
+FSL,Public Health and EMS,More Intense Rainfalls,regional responsibility increased,more payouts and claims,Likely,Very Likely,3,4,3,4,3,3,3
+COM,Operations & Maintenance,More Heat Waves,Greater need for cooling centres,"Higher costs, more GHGs emitted, increased number of staff working. May also change criteria for building facilities.",Very Likely,Almost Certain,4,2,1,2,3,2,1
+CORP,Public Works Operations,More Intense Rainfalls,impacts public events,"increased public risks from extreme events, need for emergency response",Likely,Very Likely,3,3,2,3,3,3,2
+CORP,Public Works Operations,More Ice Storms,infrastructure damage,"More repairs, higher costs, delays in fleet services",Unlikely,Likely,3,3,3,3,3,3,3
+TECH,Corporate Services,More Intense Rainfalls,flooding,more damage to infrastructure,Likely,Very Likely,4,3,2,3,1,2,3
+COM,Finance and Legal,All Extreme Weather,re-inventing space to bring in revenue,revise use of space,Unlikely,Likely,1,1,1,1,1,,1
+ENV,Roads & Traffic Operations,More Dry Spells,warmer weather,increased dry spells and increased watering bans,Unlikely,Likely,1,1,1,1,1,1,1
+COM,Natural Environment,More Rain / Snow in Winter,greater runoff,"Significant impacts to water quality in local water bodies, and to habitats in these water bodies.",Very Likely,Almost Certain,3,2,3,5,3,3,1
+TRANS,Human Resources,More Ice Storms,staff safety,increased stress & psychological/ emotional pain,Unlikely,Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Heat Waves,greater water for construction,Additional costs are required.,Likely,Almost Certain,4,3,3,3,4,3,3
+CORP,Public Works Operations,More Intense Rainfalls,waterway overflows,change geography/route making access to infrastructure more remote,Likely,Likely,3,3,3,3,3,3,3
+TRANS,Human Resources,More Dry Spells,wildfires,potentially greater need for fire fighter recruitment,Unlikely,Unlikely,1,1,1,1,2,1,1
+ENV,Policy Planning,More Rain / Snow in Winter,flooding,increased snow load and snow storage,Likely,Very Likely,1,1,1,1,2,1,1
+ENV,Policy Planning,More Rain / Snow in Winter,more snow storage sites,"change how we design streets, different snow removal techniques",Likely,Very Likely,1,1,1,1,2,1,1
+COM,Operations & Maintenance,More Intense Rainfalls,flooding in facilities,Increased costs and staff to pump out basements and repair them.,Unlikely,Likely,4,3,2,1,3,2,1
+COM,Natural Environment,Extended Spring/Fall,growing season will shift,Greater need for seasonal staff (earlier or later in summer - may interfere with students' school schedules).,Likely,Very Likely,2,1,1,1,1,1,1
+COM,Operations & Maintenance,More Ice Storms,health impacts,Need for more warming centres necessary for staff.,Likely,Likely,2,1,3,1,2,1,1
+CORP,Public Works Operations,More Ice Storms,property damage,delay in responding/ have to prioritize,Unlikely,Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Ice Storms,cant access certain areas,productivity decreases for enforcement,Unlikely,Likely,3,2,2,2,2,3,2
+TRANS,Human Resources,More Rain / Snow in Winter,More obstructed sightlines and more dangerous driving conditions,More potential for injury.,Unlikely,Likely,1,1,1,1,2,1,1
+COM,Natural Environment,More Heat Waves,greater demand of well water,Need for alternative water sources and plans for water shortages --> storage and budget.,Likely,Almost Certain,3,1,1,1,1,2,1
+CORP,Recreation & Culture,All Extreme Weather,cancellation of outdoor activities,Loss in revenue,Unlikely,Likely,2,1,1,1,1,1,1
+CORP,Recreation & Culture,More Ice Storms,Less reliance in contracts and relationships.,Implications in services.,Rare,Unlikely,1,2,1,1,2,2,1
+WATER,Environmental Services,More Intense Rainfalls,flooding,damage to properties,Likely,Very Likely,2,2,1,2,2,2,2
+CORP,Communications,All Extreme Weather,communication issues,There may not be an appropriate protocol set in place on who has the responisbility for communication.,Very Likely,Almost Certain,1,1,3,1,1,3,1
+COM,Finance and Legal,All Extreme Weather,Opportunity for better climate integration,Credit rating agencies have better confidence,Likely,Very Likely,2,1,1,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,infrastructure damage,Changes to pruning cycles (requiring more staff and budget) and more hazardous tree removals.,Likely,Likely,3,2,2,2,2,2,2
+WATER,Environmental Services,More Rain / Snow in Winter,Increase salt use,impacts on water sources,Likely,Very Likely,5,2,4,4,3,4,3
+CORP,Recreation & Culture,More Rain / Snow in Winter,harder for staff to get to workplace ,"Health and safety issues, loss in productivity.",Likely,Very Likely,1,1,1,1,1,2,1
+CORP,Public Works Operations,Extended Spring/Fall,Increased construction season,more crossing guard locations and increased changes to their locations,Likely,Almost Certain,1,1,1,1,3,3,1
+ENV,Capital Delivery,More Intense Rainfalls,older infrastructure more at risk,increased stress test studies on infrastructure to identify priorities,Very Likely,Almost Certain,1,3,3,3,3,3,3
+COM,Operations & Maintenance,More Ice Storms,building collapses,"danger to staff and residents, major costs.",Rare,Unlikely,5,5,5,3,5,5,5
+WATER,Environmental Services,More Rain / Snow in Winter,more water availability,less demand for water,Very Likely,Very Likely,3,1,1,1,1,2,1
+TRANS,Human Resources,Extended Spring/Fall,Increased construction season,need for pre- screening of contractors to meet safety requirements may eventually be necessary,Likely,Very Likely,2,1,2,1,1,1,1
+CORP,Recreation & Culture,More Ice Storms,Increased ice on facility grounds.,"Higher liability, more public complaints, health and safety risks.",Likely,Very Likely,3,2,2,1,1,2,1
+ENV,Capital Delivery,Extended Spring/Fall,increased transporation,increase in staffing needs/ resource constraints/ increased pressure on executive /political level for resources,Likely,Very Likely,4,2,3,2,2,3,3
+COM,Finance and Legal,More Ice Storms,Communication down,loss the ability to communicate to public,Likely,Very Likely,3,4,2,2,3,4,4
+COM,Design & Construction,More Heat Waves,greater urban heat island effect,would have to look at increasing urban canopy for shade,Likely,Almost Certain,2,1,2,1,1,1,1
+COM,Operations & Maintenance,More Ice Storms,More competition for resources.,slowed response to the emergency (i.e. potential lack of fuel to meet requirements of emergency generators).,Rare,Unlikely,3,2,1,1,3,2,2
+TECH,Corporate Services,More Freeze-Thaw Cycles,damage to infrastructure,change in the design materials and standards,Likely,Very Likely,2,1,1,1,1,1,1
+TRANS,Regional Clerk,More Intense Rainfalls,flooding risks paper records,"Potential loss of paper records of by-laws, town facility plans (architectural, electrical drawings)",Unlikely,Likely,5,5,3,4,4,5,5
+ENV,Roads & Traffic Operations,Higher Average Temperatures,increase in building code changes,more staff and special skills required for new building development,Likely,Very Likely,1,1,1,1,1,1,1
+FSL,Public Health and EMS,More Heat Waves,Outdoor workers at risk,"Better training and equipment needed (sunscreen, sunglasses, hats, etc)",Likely,Almost Certain,2,1,3,1,2,2,1
+COM,Natural Environment,More Heat Waves,higher energy needs,"Higher electricity demands and cost, increase in peak loads, increased cooling centres, and more demand for water activities, requiring more staff and resources.",Very Likely,Almost Certain,3,2,3,2,2,2,2
+TRANS,Information Technology,More Ice Storms,greater power outages,"Disruption to communication, emergency dispatch, etc. due to overburdened communication infrastructure (need to increase redundancy)",Likely,Likely,1,1,1,1,1,1,1
+ENV,Development Planning,Extended Spring/Fall,project delays,increased resource consumption/ pressure,Very Likely,Almost Certain,1,1,1,1,1,1,1
+CORP,Communications,More Heat Waves,Greater need for cooling centres,Appropriate protocols need to be in place.,Likely,Very Likely,1,1,1,1,1,2,1
+CORP,Public Works Operations,More Dry Spells,higher demand for irrigation,Changes in business practices and policy.,Likely,Very Likely,3,2,2,2,2,3,3
+TRANS,Transportation Services,More Intense Rainfalls,Culvert acts as a dam during floods,Increases the impacts of floods,Likely,Very Likely,3,3,2,2,3,2,2
+CORP,Recreation & Culture,Extended Spring/Fall,project delays,Increased costs.,Very Likely,Almost Certain,2,1,1,1,2,2,1
+TECH,Corporate Services,More Heat Waves,health impacts to staff,Increase in claims and injuries,Likely,Very Likely,3,1,3,1,3,2,2
+COM,Finance and Legal,More Heat Waves,long-term care facilities could be evacuated,requires emergency planning,Unlikely,Likely,4,3,4,3,4,4,4
+TRANS,Human Resources,All Extreme Weather,greater power outages,"Centres with fitness facilities (pools with showers) open up to public as emergency support (cooling, power regeneration). This impacts regularly scheduled programs and staff.",Unlikely,Likely,1,1,1,1,1,1,1
+COM,Natural Environment,Extended Spring/Fall,changes in seasonal scheduling,"Less water sotred as snow, higher frequency of flashy runoff events. Higher runoff causing erosion. Additional costs and staff required to repair infrastructure.",Likely,Almost Certain,4,3,1,3,3,2,2
+CORP,Public Works Operations,More Ice Storms,infrastructure damage,"More repairs, higher costs.",Unlikely,Likely,4,4,4,4,4,3,3
+COM,Design & Construction,More Freeze-Thaw Cycles,infrastructure damage,Increased Costs,Likely,Likely,4,3,1,1,1,2,1
+CORP,Recreation & Culture,More Intense Rainfalls,Higher need for procurement of services,Higher costs and program shifts and cancellations.,Likely,Very Likely,3,3,2,1,2,1,1
+CORP,Recreation & Culture,Extended Spring/Fall,Outdoor ice can't be maintained.,Outdoor skate trail would be limited in use.,Likely,Very Likely,1,1,1,1,1,2,1
+COM,Design & Construction,"Others
+(e.g., higher wind speeds)",public safety,revisit standards & design & construction practices,Likely,Very Likely,2,1,1,1,1,1,1
+TRANS,Human Resources,More Heat Waves,decreased air quality,"Staff, public, and animal health impacts.",Very Likely,Almost Certain,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Heat Waves,staff safety,less efficiency of staff (taking more breaks),Unlikely,Almost Certain,3,1,3,1,3,1,1
+COM,Sustainability,All Extreme Weather,staff safety,"greater challenge in outreach efforts, safety risks to staff, equipment damage, increased need to ensure staff are aware of weather protocol ",Unlikely,Likely,1,2,3,1,2,2,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,health impacts,Closure of stairways at community centres and parks,Likely,Likely,4,3,3,3,4,4,3
+CORP,Public Works Operations,More Rain / Snow in Winter,higher tree mortality,"Increased risks to staff, staff overtime  hours",Likely,Very Likely,3,2,2,2,2,3,2
+TRANS,Transportation Services,Extended Spring/Fall,increase flexibility and opportunity for construction,Budget might be maxed out for construction,Likely,Very Likely,3,1,1,1,1,2,1
+TRANS,Transportation Services,More Rain / Snow in Winter,elderly population likely impacted,greater need for EMS,Likely,Very Likely,3,1,2,1,1,2,1
+ENV,Capital Delivery,More Dry Spells,wildfires,more drought resistant planning for construction,Rare,Unlikely,1,3,2,3,2,2,2
+FSL,Public Health and EMS,More Heat Waves,Many schools do not have air conditioning,"School boards have issues, complaints from public, and risk to children",Likely,Almost Certain,3,1,2,1,3,3,1
+CORP,Public Works Operations,More Rain / Snow in Winter,delayed emergency response,"Snowplows are called for each fir station, more staffing and more equipment.",Unlikely,Very Likely,4,4,4,4,4,4,4
+CORP,Communications,More Freeze-Thaw Cycles,impacts waste collection,"Increased call volumes, responses become difficult.",Likely,Very Likely,1,1,3,1,1,3,1
+COM,Operations & Maintenance,More Intense Rainfalls,project delays,Additional costs to repair these.,Likely,Very Likely,3,2,1,2,3,2,1
+COM,Operations & Maintenance,Wetter Springs/Fall,project delays,Additional costs required (site and fleet transport),Likely,Very Likely,4,2,1,1,3,2,1
+COM,Natural Environment,Extended Spring/Fall,longer pest season,"Greater maintenance needs and prevention, increase in budget for more staff and/or contractors.",Likely,Very Likely,3,3,1,3,1,2,1
+ENV,Development Planning,More Intense Rainfalls,increased need for stormwater management,"Sewer overflow, impacts on treatment plants. Service delivery impairment like electricity",Likely,Very Likely,1,1,1,1,1,1,1
+ENV,Capital Delivery,More Intense Rainfalls,infrastructure damage,reconsider design and engineering standards (e.g. confecting infrastructure),Unlikely,Very Likely,4,3,2,3,3,2,2
+CORP,Public Works Operations,More Ice Storms,infrastructure damage,"More repairs, higher costs.",Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Fire,"Others
+(e.g., higher wind speeds)",greater power outages,"More staffing for maintenance for tree trimming, and to repair power outages.",Unlikely,Likely,3,3,3,3,3,3,4
+CORP,Legal Services,More Intense Rainfalls,Increased sues against Town,Higher need for resources or costs to pay out.,Very Likely,Almost Certain,3,2,3,3,1,2,3
+CORP,Recreation & Culture,More Ice Storms,not enough staff or resources,"Delays in fixing problems, need to rely on other jurisdictions for help (e.g. Ottawa helped with Toronto's ice storm).",Rare,Unlikely,2,1,1,1,2,1,1
+TECH,Corporate Services,More Rain / Snow in Winter,roads could be unsafe,increase claims and injuries requiring pay outs,Likely,Very Likely,3,1,3,2,2,4,2
+TRANS,Human Resources,More Heat Waves,decreased air quality,more breaks necessary,Very Likely,Almost Certain,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Heat Waves,road damage,increased maintenance & costs,Unlikely,Almost Certain,4,3,3,3,3,3,3
+CORP,Public Works Operations,More Intense Rainfalls,flooding,revisit of design standards & resizing of infrastructure,Likely,Very Likely,3,3,2,4,4,3,3
+COM,Natural Environment,Higher Average Temperatures,more water usage,"Increases waste treatment production, and increases energy demand.",Rare,Unlikely,1,1,1,1,1,1,1
+FSL,Public Health and EMS,More Intense Rainfalls,flooding,contamination private/municipal wells and beach closings,Rare,Unlikely,2,2,1,3,3,2,3
+TECH,Corporate Services,All Extreme Weather,impacts to local shops and shift to online,loss of economic development,Unlikely,Likely,1,1,2,1,4,1,1
+COM,Natural Environment,Wetter Springs/Fall,greater monitoring required,Additional staff and costs may be required.,Likely,Very Likely,4,1,3,1,3,1,1
+TRANS,Transportation Services,"Others
+(e.g., higher wind speeds)",Greater number of falling trees,Damage to power-lines and public,Likely,Very Likely,3,3,3,1,3,3,3
+CORP,Recreation & Culture,More Heat Waves,Higher demand for air conditionin,Decreased air quality poses health and safety concerns for staff.,Very Likely,Almost Certain,3,1,2,3,2,2,2
+CORP,Recreation & Culture,More Ice Storms,harder for staff to get to workplace ,"disruption to project timelines (e.g. major workshops, consultation, audits)",Rare,Unlikely,2,1,2,1,2,2,1
+COM,Natural Environment,More Ice Storms,increased public safety,"More closures of public parks and trails, increased amount of complaints.",Unlikely,Likely,1,2,1,3,1,3,1
+CORP,Recreation & Culture,More Heat Waves,greater power outages,"If lack of cooling centres, staff and public cannot stay cool. Therefore there are many health and safety concerns.",Very Likely,Almost Certain,3,1,1,2,1,1,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,health impacts,Proper footwear and clothing required for staff.,Likely,Likely,4,3,3,3,4,4,3
+COM,Natural Environment,"Others
+(e.g., higher wind speeds)",Increase in blowing blue box litter,The Town would require additional staff to collect the litter and handle public complaints.,Likely,Likely,1,1,1,1,1,2,1
+TRANS,Regional Clerk,More Intense Rainfalls,Cemetery companies go out of business or leave town.,May need to take over management of cemeteries.,Rare,Unlikely,3,1,1,2,2,1,1
+CORP,Recreation & Culture,More Freeze-Thaw Cycles,health impacts,Proper footwear and clothing required for staff. Slips and falls - public clearing of paths and roadways.,Likely,Likely,1,1,2,1,1,1,1
+CORP,Recreation & Culture,More Ice Storms,"More absents, more difficulty of communicating status of programs.","Impacts to staffing resources/policy to address programming closures/staff shortages, difficulty communicating with public.",Rare,Unlikely,2,1,2,2,3,2,1
+CORP,Communications,More Heat Waves,Greater need for splash pads,More follow up resources needed.,Likely,Very Likely,1,1,1,1,1,2,1
+FSL,Public Health and EMS,More Heat Waves,Ticks are now present in York Region,Risk to public/employee health and need to communicate to public,Rare,Likely,2,1,2,1,1,2,1
+TECH,Corporate Services,More Heat Waves,loss of coldwater fish habitat,death of native fish populations,Likely,Very Likely,1,1,1,1,1,1,1
+TECH,Corporate Services,More Ice Storms,companies lose revenue,economic loss and companies could struggle financially,Unlikely,Likely,1,1,2,1,2,2,1
+COM,Natural Environment,More Dry Spells,greater demand of well water,Increased amount of public complaints and costs to the Town to accommodate this.,Unlikely,Likely,1,1,1,1,1,3,1
+FSL,Public Health and EMS,Extended Spring/Fall,increased cooling requirements,increased costs,Likely,Almost Certain,2,2,3,2,4,1,3
+CORP,Public Works Operations,More Heat Waves,Greater need for cooling centres,"People will use their AC, and will sit in their vehicles, seek a cooling center (more idling)",Likely,Almost Certain,3,2,2,2,3,2,2
+COM,Operations & Maintenance,More Heat Waves,More use of AC and GHG emissions.,"Building envelope will have to perform better, ensure fewer air losses.",Very Likely,Almost Certain,3,3,2,2,3,2,1
+CORP,Fire,"Others
+(e.g., higher wind speeds)",transporation difficulty,"Impact mail and courier services to town facilities and staff, residents, mayor and member of council. More thought on alternative ways to deliver supplies.",Likely,Very Likely,4,4,4,3,4,4,4
+CORP,Public Works Operations,More Dry Spells,reduced well water available,bring town water and more cost and more complaints,Rare,Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Heat Waves,health impacts,"More workers out in field, budget constrains",Likely,Almost Certain,1,1,2,1,2,1,1
+TRANS,Human Resources,Wetter Springs/Fall,flooding,"Increased risks of leaks in facilities, more maintenance or replacements required, more staff and or contractors to do this.",Unlikely,Likely,1,1,1,1,2,1,1
+FSL,Public Health and EMS,All Extreme Weather,Street outreach vans deployed to manage vulnerable populations,region might not know where are the vulnerable individuals,Unlikely,Likely,3,1,4,2,3,3,1
+COM,Operations & Maintenance,"Others
+(e.g., higher wind speeds)",reduced duration of assests,"Costs for repair or replacement, additional staff required/contractors.",Unlikely,Likely,3,2,1,1,2,1,2
+CORP,Public Works Operations,More Rain / Snow in Winter,salt or sand application,"Degradation of the natural environment, negative impacts to infrastructure (concrete repair, etc.).",Likely,Very Likely,4,3,2,3,3,2,4
+CORP,Public Works Operations,Extended Spring/Fall,road damage,more maintenance,Very Likely,Almost Certain,3,3,3,1,3,1,1
+WATER,Environmental Services,More Dry Spells,reduced water availability,water could not be available for services,Rare,Likely,4,3,3,2,4,5,4
+CORP,Public Works Operations,More Freeze-Thaw Cycles,impacts to underground utilities,"more water main breaks, increased repairs, servicing, complaints",Likely,Likely,4,3,3,3,3,3,3
+COM,Finance and Legal,More Heat Waves,contractors may be delayed due to weather issues,need for contingency in budgets,Unlikely,Likely,2,1,2,1,1,2,1
+ENV,Roads & Traffic Operations,More Heat Waves,health impacts,"More workers out in field, budget constraints",Likely,Almost Certain,2,1,2,1,2,1,1
+CORP,Fire,Extended Spring/Fall,changes in seasonal scheduling,"Less water stored as snow, higher frequency of flashy runoff events. Higher runoff causing erosion. Additional costs and staff required to repair infrastructure.",Unlikely,Very Likely,4,4,4,3,4,4,4
+COM,Operations & Maintenance,More Freeze-Thaw Cycles,infrastructure damage,"Replacement/repair, and additional staffing = major costs to Town.",Likely,Very Likely,3,2,1,1,2,2,1
+COM,Finance and Legal,More Dry Spells,increase water demand and distribution,increase reports and testing,Unlikely,Likely,1,1,1,1,1,2,2
+COM,Natural Environment,Wetter Springs/Fall,health impacts,"Increased vulnerability to senior populations, and to certain species.",Unlikely,Very Likely,2,3,1,3,1,2,1
+WATER,Environmental Services,Extended Spring/Fall,more peak periods for construction,shifting in staff schedules,Unlikely,Likely,1,1,1,1,1,1,1
+ENV,Development Planning,Wetter Springs/Fall,contigency in site operates required,need to build,Likely,Very Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Heat Waves,increase in invasive species,Greater maintenance and control efforts needed.,Likely,Almost Certain,3,2,2,2,3,2,2
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",Increase in blowing blue box litter,The Town would require additional staff to collect the litter and handle public complaints.,Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Recreation & Culture,More Rain / Snow in Winter,Heavier and more dense snow.,More health and safety issues and building damage.,Likely,Very Likely,3,2,1,1,2,2,1
+CORP,Public Works Operations,More Rain / Snow in Winter,delayed emergency response,"Snowplows are called for each fir station, more staffing and more equipment.",Likely,Very Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Intense Rainfalls,weeping tiles may accelerate ponding and flooding,worsening floods and clean ups,Unlikely,Likely,3,3,3,3,3,3,3
+TRANS,Transportation Services,More Heat Waves,More AC required for fleet and facilities,Increase demand to maintain and support cooling equipment,Likely,Very Likely,2,2,3,1,2,1,3
+COM,Natural Environment,More Intense Rainfalls,flooding,"More pollutants in water, reduces water quality, and degrades natural systems. More staff efforts needed to remediate systems.",Very Likely,Almost Certain,4,4,4,4,4,4,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,road damage,"more maintenance focus, need for engineering standards review, less likelihood of cycling",Likely,Very Likely,3,2,1,1,2,1,1
+COM,Finance and Legal,All Extreme Weather,increase payouts over time,increase in deductibles and/or complete changes in coverage,Unlikely,Likely,3,1,1,1,1,2,1
+FSL,Public Health and EMS,More Freeze-Thaw Cycles,Increase salt use,increased costs and liability on the region to manage the ice,Likely,Very Likely,2,2,2,3,2,2,2
+COM,Natural Environment,Extended Spring/Fall,longer pest season,"Greater maintenance needs and prevention, increase in budget for more staff and/or contractors.",Likely,Very Likely,1,1,1,1,1,1,1
+TECH,Corporate Services,More Dry Spells,existing standards not being following,need for better enforcement,Unlikely,Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Heat Waves,health impacts,"More workers out in field, budget constrains",Likely,Almost Certain,3,2,2,2,3,2,2
+CORP,Recreation & Culture,More Rain / Snow in Winter,sidewalk damage,"More liability for slips and falls, more staff time required to clear sidewalks, trails, parks, and roads",Likely,Very Likely,1,1,2,1,1,1,1
+COM,Natural Environment,More Heat Waves,increase in invasive species,Greater maintenance and control efforts needed.,Very Likely,Almost Certain,3,3,1,4,1,3,1
+CORP,Legal Services,More Dry Spells,Harder ground and soils,Increased injury on fields.,Unlikely,Likely,3,2,3,3,1,2,3
+COM,Natural Environment,Higher Average Temperatures,solar energy requirements,Update standards and policies in relation to subsidies. Impacts AM replacement strategies,Likely,Very Likely,2,1,1,2,2,1,2
+TRANS,Transportation Services,Extended Spring/Fall,Increase vegetation growth,More landscaping costs,Likely,Very Likely,2,1,1,1,1,1,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,sidewalk damage,"More trips, slips, and liability for staff and public.",Unlikely,Likely,3,3,3,3,3,3,3
+COM,Finance and Legal,More Intense Rainfalls,new developments add stress to the water system,need incentives to encourage low impact developments,Unlikely,Very Likely,2,2,1,1,1,2,2
+TRANS,Transportation Services,More Heat Waves,increase idling for vehicles,more fuel/electricity and costs,Very Likely,Almost Certain,4,1,1,3,1,3,1
+CORP,Recreation & Culture,More Ice Storms,impacts public events,"Cancellations of events and sports, loss of revenue, increased cost of resources",Rare,Unlikely,1,1,3,1,2,2,1
+CORP,Public Works Operations,More Dry Spells,impacts public events,"More damage control and managements are required. Loss of revenue, angry residents, additional staff resources are required.",Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,Extended Spring/Fall,increased yard waste,More ware & tare of facilities,Likely,Very Likely,2,2,2,2,2,2,2
+FSL,Public Health and EMS,More Rain / Snow in Winter,more slips and falls,increased injuries to the regional staff,Likely,Very Likely,2,1,3,1,2,1,1
+COM,Finance and Legal,More Ice Storms,Snow plows likely to damage public property,increased liability and damages to reputation,Unlikely,Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,Higher Average Temperatures,Increased evapotranspiration,"Reduced pond, wetland, and lake water levels, reduced treatment provided by ponds, increased stress to plantings, more active storage in ponds.",Very Likely,Almost Certain,3,2,2,2,2,2,2
+ENV,Policy Planning,More Dry Spells,stress to natural systems,Loss of animal habitat and human amenity areas,Likely,Very Likely,1,1,1,1,2,1,1
+COM,Operations & Maintenance,More Intense Rainfalls,flooding,Insurance and insurable issues for facilities.,Likely,Very Likely,4,2,1,1,3,3,2
+CORP,Public Works Operations,Higher Average Temperatures,increased pests,increased in pickup for organic waste ( handle it differently),Unlikely,Very Likely,3,2,2,2,2,3,3
+CORP,Public Works Operations,More Rain / Snow in Winter,not enough staff or resources,"stress on resources, increased risk of trips &slips and vehicle traffic and accidents",Very Likely,Almost Certain,4,3,3,3,4,4,3
+COM,Natural Environment,More Intense Rainfalls,infrastructure damage,"More replacement needed, impact to public and private infrastructure, more resources required.",Very Likely,Almost Certain,2,2,2,3,2,2,2
+ENV,Development Planning,"Others
+(e.g., higher wind speeds)",coordination of SMEs,implementation constraints,Likely,Likely,2,1,1,1,1,1,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,more pipes freezing,Additional costs and staff to repair it.,Unlikely,Likely,3,2,2,1,2,2,1
+TECH,Corporate Services,More Freeze-Thaw Cycles,increase risk to York Region staff on roads,loss of services and safety issues,Unlikely,Likely,2,1,2,1,2,2,1
+TECH,Corporate Services,Extended Spring/Fall,winter activities reduced,winter activities closed and loss revenue,Likely,Very Likely,1,1,1,1,2,1,1
+TRANS,Human Resources,More Ice Storms,harder for staff to get to workplace ,"may need to rely on more telework, therefor less office space may be needed- culture shift",Rare,Unlikely,1,1,1,1,1,1,1
+TECH,Corporate Services,More Intense Rainfalls,increase in pathogens and insects in ponds,breeding more diseases,Likely,Very Likely,2,1,4,1,1,1,1
+CORP,Recreation & Culture,More Heat Waves,changes in indoor vs outdoor services/facilities,"Space planning, more cooling areas to be planned.",Very Likely,Almost Certain,2,2,2,1,2,2,1
+CORP,Strategic Initiatives,More Ice Storms,Impact ability to discuss with businesses,Delays in services,Very Likely,Very Likely,1,1,1,1,1,1,1
+ENV,Capital Delivery,"Others
+(e.g., higher wind speeds)",infrastructure needs long-term control,the town needs larger budgets long term,Very Likely,Almost Certain,4,2,3,3,2,2,2
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",increased yard waste,spike in service or complaints,Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,More Rain / Snow in Winter,"Prioritizing what we will do, and abandon other activities",first clearing roads and having timelines to getting this done,Unlikely,Likely,3,3,3,3,3,3,3
+TECH,Corporate Services,More Ice Storms,trees fall on hydro lines,road and electrical disruptions,Likely,Very Likely,3,4,2,1,3,3,3
+COM,Operations & Maintenance,"Others
+(e.g., higher wind speeds)",greater monitoring required,Takes up staff time that had other duties - causes delays in other projects.,Likely,Very Likely,2,2,1,1,2,1,2
+ENV,Policy Planning,More Intense Rainfalls,higher tree mortality,"use of good planting species used, can help accommodate SW runoff (soil cells & connected tree trench)",Very Likely,Almost Certain,1,1,1,1,2,1,1
+WATER,Environmental Services,More Freeze-Thaw Cycles,increase slips and falls at depots of staff/residents,municipalities may be liable due to lack of maintenance,Likely,Almost Certain,2,1,3,2,1,2,2
+TRANS,Human Resources,"Others
+(e.g., higher wind speeds)",staff safety,"Increased health and safety risks, increased need for wind-resistant equipment (increase in budget). 'Reduced staff hours. Increased need for operation procedures which results in more training and deployment (more staff needed, increase in budget).",Rare,Unlikely,1,1,1,1,2,1,1
+FSL,Public Health and EMS,More Ice Storms,increase risk of power outages in physicians offices,impacts public health clinics,Likely,Very Likely,4,4,2,1,3,3,1
+CORP,Public Works Operations,More Ice Storms,greater staff training,need to identify designated staff in these emergency situations,Unlikely,Likely,4,3,2,3,3,4,4
+CORP,Public Works Operations,More Dry Spells,warmer weather,increased dry spells and increased watering bans,Unlikely,Likely,3,3,3,3,3,3,3
+COM,Natural Environment,More Dry Spells,stress to natural systems,Loss of animal habitat and human amenity areas.,Rare,Unlikely,2,1,1,4,1,1,1
+TECH,Corporate Services,More Heat Waves,may need new pavement standards and materials,increased research for new materials,Unlikely,Likely,2,2,1,1,1,2,2
+COM,Natural Environment,More Intense Rainfalls,flooding,Drainage services for overland flow are overflowing and/or clogged by debris. Staff need to clean this up.,Very Likely,Almost Certain,1,2,2,3,2,4,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,sidewalk damage,"More trips, slips, and liability for staff and public.",Very Likely,Very Likely,3,3,3,3,2,2,2
+CORP,Fire,More Ice Storms,Need for emergency warming centres.,More staff and money to keep these centers up and running.,Likely,Likely,3,3,3,3,3,3,4
+COM,Operations & Maintenance,Extended Spring/Fall,Increased construction season,Need for pre- screening of contractors to meet safety requirements may eventually be necessary,Likely,Very Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,more emergencies,pressure to provide warming centers,Unlikely,Likely,3,4,3,3,3,4,3
+CORP,Public Works Operations,More Heat Waves,increased pests,The Town would have to address more public complaints and have to increase collection frequency (additional cost associated).,Likely,Almost Certain,2,2,2,2,2,2,2
+TECH,Corporate Services,More Heat Waves,schools are more concerned about heat,increased health risk to the students,Rare,Very Likely,2,1,2,1,2,1,1
+COM,Natural Environment,More Rain / Snow in Winter,salt or sand application,"Degredation of the natural environment, negative impacts to infrastructure (concrete repair, etc.).",Likely,Almost Certain,3,2,1,3,1,2,1
+COM,Operations & Maintenance,Higher Average Temperatures,Older equipment may have to run continuously,"More damages, more energy used, and more maintenance costs.",Likely,Very Likely,2,2,1,2,3,2,2
+CORP,Legal Services,More Intense Rainfalls,flooding,"Fields are waterlogged, trails are washed out, so many closures and cancellations. Loss in revenue, increase in public complaints.",Very Likely,Almost Certain,3,2,3,3,1,2,3
+CORP,Fire,More Intense Rainfalls,impacts to underground utilities,Communication between facilities and even to external internet may be affected residents may not be able to access town online services.,Rare,Likely,4,4,4,3,4,4,4
+TRANS,Transportation Services,Extended Spring/Fall,Shift from salt/plow to landscaping,"Shifts in equipment requirements, greater costs for storage, and increased roll kill",Likely,Very Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,Extended Spring/Fall,increased yard waste,affects peaks/ valley & cost of waste collection,Likely,Very Likely,3,2,2,2,2,3,2
+COM,Operations & Maintenance,More Dry Spells,greater demand of well water,Closing facilities and losing revenue.,Unlikely,Likely,1,2,1,1,5,3,3
+CORP,Public Works Operations,Wetter Springs/Fall,increased need for catch basin clearing,increased costs and service agreement,Likely,Almost Certain,3,3,3,3,3,3,3
+TECH,Corporate Services,All Extreme Weather,Loss of technology that is dependent on power,delay or interruptions in service delivery,Unlikely,Likely,2,3,2,3,3,2,3
+WATER,Environmental Services,More Freeze-Thaw Cycles,increase water main breaks,need more redundancy and different materials,Unlikely,Likely,2,2,1,3,3,3,2
+COM,Natural Environment,More Ice Storms,increased yard waste,Additional collection staff required and additional yard waste tonnage which increases cost to the Town.,Rare,Likely,4,3,3,3,3,3,3
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",Cemetery companies go out of business or leave town.,May need to take over management of cemeteries.,Rare,Unlikely,3,2,2,2,2,3,2
+CORP,Strategic Initiatives,More Intense Rainfalls,Need for more money for relief fund.,Higher need for resources from Province.,Likely,Almost Certain,1,1,1,1,2,1,1
+COM,Finance and Legal,More Ice Storms,Need to document everything for federal funding,increase staffing to process the work,Likely,Very Likely,2,1,1,1,2,1,1
+CORP,Public Works Operations,More Intense Rainfalls,erosion,Additional maintenance costs.,Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Strategic Initiatives,More Ice Storms,Increased need for pulling claims and data,Need to ask province for additional resources (e.g. cross-departmental impacts),Very Likely,Almost Certain,1,1,1,1,2,1,1
+CORP,Public Works Operations,Extended Spring/Fall,salt or sand application,increased services needed,Likely,Very Likely,3,3,3,3,3,3,3
+TRANS,Human Resources,More Intense Rainfalls,flooding,High risk of injury to Town staff.,Likely,Very Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",higher tree mortality,"trees will fall down and RH staff will be responsible for this, may delay fleet access/use",Likely,Very Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Ice Storms,traffic issues,needs to be development of alternative modes of transportation,Likely,Very Likely,3,2,1,1,2,1,2
+ENV,Policy Planning,More Intense Rainfalls,Inability to infiltrate water,"erosion issues, more cost to resident and municipal budgets",Very Likely,Almost Certain,1,1,1,1,2,1,1
+CORP,Fire,More Heat Waves,staff safety,less efficiency of staff (taking more breaks),Unlikely,Almost Certain,4,3,2,3,3,3,4
+WATER,Environmental Services,More Ice Storms,increased employee absenteeism and work risk,decrease productivity and more staff required,Likely,Very Likely,2,3,4,2,4,1,4
+TRANS,Transportation Services,More Freeze-Thaw Cycles,Higher corrosion on the vehicles,Increased repairs to fleet and less vehicles available,Likely,Very Likely,2,2,2,1,2,1,1
+CORP,Public Works Operations,Extended Spring/Fall,increase in invasive species,Impacts on native species,Very Likely,Almost Certain,3,2,2,2,2,2,2
+ENV,Development Planning,"Others
+(e.g., higher wind speeds)",switch from short-term to long-term planning,OP amendments may be required,Likely,Very Likely,2,1,2,1,2,2,1
+ENV,Capital Delivery,More Heat Waves,less outdoor activity,less mode shift to ped/ cycling,Likely,Almost Certain,1,1,1,1,1,1,1
+ENV,Policy Planning,More Heat Waves,Greater need for cooling centres,"Shade pads, shade structures, coding courses",Likely,Almost Certain,1,1,1,1,2,1,1
+FSL,Public Health and EMS,More Intense Rainfalls,flooding,increased damage to infrastructure and older buildings,Likely,Almost Certain,2,1,1,1,1,1,1
+WATER,Environmental Services,"Others
+(e.g., higher wind speeds)",Lightning impacts hydro and communications,loss of technology and connectivity,Unlikely,Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,then maximo may be disrupted,electronic work couldn?t happen (paper only),Unlikely,Likely,1,1,1,1,1,1,1
+TECH,Corporate Services,More Intense Rainfalls,flooding,corporate records in basement and can cause destruction of files,Rare,Unlikely,5,3,1,1,1,4,1
+TRANS,Transportation Services,More Heat Waves,paving not possible during the day,work shifts into evenings and increase staff costs,Likely,Very Likely,3,1,2,1,2,2,2
+TECH,Corporate Services,More Ice Storms,increased reliance on underground hydro lines,increased cost to build and repair,Rare,Unlikely,3,1,1,2,3,3,2
+FSL,Public Health and EMS,More Heat Waves,Air quality decreases,Need for public communications on how to respond,Likely,Very Likely,3,1,2,2,3,3,1
+WATER,Environmental Services,More Heat Waves,less available work outdoors,impacts system delivery and productivity,Rare,Rare,2,1,2,1,2,1,1
+TRANS,Information Technology,More Heat Waves,wildfires,Higher risk to fire services response across Central York Region if there is any disruption to IT and/or dispatch services.,Unlikely,Very Likely,1,1,2,2,1,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,flooding,Increased maintenance during these condition. Contractors on the hook to maintain and repair.,Very Likely,Almost Certain,3,1,1,3,1,1,1
+ENV,Capital Delivery,More Dry Spells,water might need compound maintenance,exacerbated soil issues,Unlikely,Likely,1,3,2,3,2,2,2
+COM,Natural Environment,More Dry Spells,increased wildfires,"Increased need for training staff, communications and research on these.",Rare,Unlikely,1,1,1,1,1,1,1
+TRANS,Information Technology,"Others
+(e.g., higher wind speeds)",Increased probability of downed power and communication lines.,Impact facility services to residents and ability for town staff and residents to access their facilities.,Rare,Unlikely,1,1,1,1,1,1,1
+FSL,Public Health and EMS,More Heat Waves,seniors at risk in housing,greater cooling stations needed and buildings require redundancies,Likely,Very Likely,2,2,3,2,4,1,3
+CORP,Communications,All Extreme Weather,EBC might not be open or accessible.,Staff do not have a place to do their work that is needed for other division or the public.,Unlikely,Likely,3,1,3,1,3,3,1
+COM,Finance and Legal,Extended Spring/Fall,construction season is extended,increased revenue,Likely,Very Likely,3,2,1,2,2,2,2
+CORP,Public Works Operations,More Heat Waves,less water available,Increase in revenue and adjust long term infrastructure plans.,Unlikely,Almost Certain,4,1,3,1,3,1,1
+COM,Operations & Maintenance,More Rain / Snow in Winter,more ice loading,"Roof failures and cost, design criteria need to change for roofs (e.g. plan for 100 year storms).",Unlikely,Likely,3,3,1,1,3,2,1
+TRANS,Human Resources,More Heat Waves,"MOL Blitzes for heat stress could happen. Check ups, site visits",at higher risk of MOL violations if proper training isn't provided or enforced,Likely,Very Likely,1,1,1,1,1,1,1
+TRANS,Transportation Services,All Extreme Weather,Long-term projects could require re-design,Difficulty keep up with design requirements,Unlikely,Likely,3,2,1,1,2,2,1
+CORP,Recreation & Culture,More Heat Waves,Lack of clarity of responsibilities of staff of town in emergency situations.,Higher claims and resources required.,Unlikely,Likely,1,1,2,1,1,1,1
+CORP,Public Works Operations,More Ice Storms,harder for staff to get to workplace ,lack of staff to complete work,Unlikely,Likely,3,3,3,3,5,5,5
+COM,Natural Environment,More Heat Waves,infrastructure damage,Need to modify financial models for O&M (e.g. asphalt). Replacement cycles.,Likely,Very Likely,4,3,1,1,2,2,2
+TRANS,Human Resources,More Ice Storms,More need to balance employee safety with restoration of public safety.,Communications messaging will be necessary.,Rare,Unlikely,1,1,1,1,1,1,1
+CORP,Fire,More Dry Spells,wildfires,"Requires more staff resources, and equipment carried out to the fields (e.g. the Fire Department recently bought ATVs to travel to wildfires that are not accessible by road)",Unlikely,Likely,3,3,2,3,3,2,3
+CORP,Public Works Operations,Extended Spring/Fall,shifts in natural vegetation,"Changes to what plants to buy, and where to buy them, can significantly increase budget.",Likely,Very Likely,3,2,2,2,2,3,3
+ENV,Development Planning,More Intense Rainfalls,increased lot level control ,may be limited ability to accommodate in local areas of high ground water table,Likely,Very Likely,2,2,1,1,1,2,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,increased need for stormwater management,"More repairs needed, and more staff and resources required.",Unlikely,Likely,2,2,1,1,1,1,1
+COM,Operations & Maintenance,More Intense Rainfalls,sewer back ups,Health and safety issue that may result in displacement of staff and potentially WSIB.,Likely,Very Likely,3,3,2,1,3,2,2
+FSL,Public Health and EMS,More Heat Waves,children are at higher risk,increased chance of children injury and need for cooling,Likely,Very Likely,2,2,3,2,4,1,3
+ENV,Policy Planning,"Others
+(e.g., higher wind speeds)",less defensible to the public without expertise,Timing for policy detection to be included to make defense (accelerated urgency),Likely,Likely,1,1,1,1,2,1,1
+TECH,Corporate Services,More Dry Spells,reduced water availability,construction is impacted,Unlikely,Likely,2,1,1,1,2,1,2
+COM,Sustainability,More Rain / Snow in Winter,harder for staff to get to workplace ,"disruption to project timelines (e.g. major workshops, consultation, audits)",Rare,Unlikely,2,1,2,1,2,2,1
+WATER,Environmental Services,More Heat Waves,more demand on electricity,greater risk of failures,Likely,Likely,1,1,2,2,2,2,1
+FSL,Public Health and EMS,More Heat Waves,higher risks of power outages,need a location to public the transported vulnerable people,Unlikely,Likely,3,1,2,2,3,3,4
+COM,Natural Environment,Higher Average Temperatures,health impacts,"Required more dehumidification, increases electricity demand, and produces more GHGs.",Very Likely,Almost Certain,3,2,2,2,2,2,2
+ENV,Policy Planning,Higher Average Temperatures,increased waste storage,Increased odor if hotter but with a lack of winds,Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,longer work hours,increased need for staff time management/ HR demand,Likely,Very Likely,3,3,4,3,3,3,3
+CORP,Fire,More Intense Rainfalls,flooding,limited equipment & fleet availability,Unlikely,Very Likely,4,4,4,3,4,4,4
+COM,Operations & Maintenance,More Intense Rainfalls,health impacts,"More staff/contractors required to get rid of mold, requiring additional costs.",Likely,Very Likely,4,3,2,2,3,2,2
+CORP,Public Works Operations,Extended Spring/Fall,Altered recreation schedules,NA,Likely,Very Likely,3,2,2,2,2,3,3
+ENV,Policy Planning,"Others
+(e.g., higher wind speeds)",public safety,revisit standards & design & construction practices,Likely,Very Likely,4,1,1,1,4,2,1
+CORP,Public Works Operations,More Intense Rainfalls,project delays,"Complaints from users (trails are blocked and now users need to drive), and school route re-routed.",Likely,Very Likely,3,2,2,2,2,3,2
+CORP,Public Works Operations,More Freeze-Thaw Cycles,erosion,NA,Likely,Very Likely,3,3,3,3,3,3,3
+CORP,Public Works Operations,More Ice Storms,infrastructure damage,"increased capital infrastructure replacement, increased maintenance costs",Unlikely,Likely,4,4,4,4,4,4,4
+WATER,Environmental Services,More Intense Rainfalls,blue bins heavier,slow down services and impacts processing,Likely,Very Likely,4,1,1,1,2,2,2
+TRANS,Financial Services,Wetter Springs/Fall,failure of IT services,Increased cost to IT procurement and provision of client services.,Unlikely,Likely,2,3,1,1,1,2,1
+TRANS,Human Resources,More Intense Rainfalls,flooding,"Evacuation procedures may kick in (more staff, more training), impacts to business continuity. Staff concerns about mold, risk to health and safety as air quality is decreased.",Unlikely,Likely,3,1,1,1,2,1,1
+ENV,Policy Planning,Extended Spring/Fall,Recreation opportunities compromised due to grass maintenance,"Increased policy services with respect to bike lanes being incorporated into RH development, policy",Likely,Very Likely,1,1,1,1,1,1,1
+TRANS,Human Resources,Extended Spring/Fall,wildfires,Need to alter monitoring activities and staffing (increase in cost).,Rare,Likely,1,1,1,1,2,1,1
+FSL,Public Health and EMS,More Heat Waves,higher risks of power outages,increased transportation needed to transfer people at risk,Likely,Very Likely,3,1,2,2,3,3,4
+COM,Finance and Legal,More Dry Spells,increase salt on roads,increase legal claims from runoff,Unlikely,Likely,1,2,1,4,1,2,2
+TRANS,Transportation Services,All Extreme Weather,more individuals at transit stops for shelter,need to change expectations of public,Unlikely,Likely,5,1,2,2,1,3,2
+ENV,Policy Planning,More Dry Spells,erosion,poor air quality,Unlikely,Likely,1,1,1,1,2,1,1
+TRANS,Human Resources,More Ice Storms,staff safety,"More staff needed, high risk.",Rare,Unlikely,2,1,1,1,2,1,1
+FSL,Public Health and EMS,More Ice Storms,increase risk of power outages,high risk to resident health and increased reliance on generators,Likely,Very Likely,2,2,3,2,4,1,3
+COM,Finance and Legal,More Intense Rainfalls,potential for flood legal claims by residents,increase legal payouts and risks to reputation,Unlikely,Likely,2,1,1,1,1,2,1
+CORP,Fire,More Ice Storms,infrastructure damage,"increased capital infrastructure replacement, increased maintenance costs",Unlikely,Likely,4,4,4,3,4,4,4
+CORP,Recreation & Culture,More Rain / Snow in Winter,More snow and melt,"Increased winter-related activities, increase in revenue.",Likely,Likely,2,1,1,1,1,1,1
+TECH,Corporate Services,More Intense Rainfalls,more cleaning expenses indoors,increase in staff requirements,Unlikely,Likely,3,2,2,2,2,2,1
+TECH,Corporate Services,More Intense Rainfalls,flood water being dumped into water bodies,increased legal claims and impacts to natural environment,Unlikely,Likely,2,2,1,3,3,2,3
+CORP,Public Works Operations,More Heat Waves,road damage,"more maintenance, retrofitting and more costs",Likely,Almost Certain,4,3,3,3,3,3,3
+CORP,Legal Services,More Intense Rainfalls,flooding,litigation against town & payouts,Very Likely,Almost Certain,3,2,3,3,1,2,3
+CORP,Public Works Operations,Extended Spring/Fall,changes in indoor vs outdoor services/facilities,more co-ordination among groups and divisions,Likely,Very Likely,3,2,2,2,2,2,2
+CORP,Recreation & Culture,More Ice Storms,harder for staff to get to workplace ,Decreased services.,Rare,Unlikely,1,2,1,1,2,2,1
+CORP,Recreation & Culture,More Ice Storms,health impacts,Increased liability and higher health and safety hazards.,Likely,Very Likely,3,2,2,1,1,2,1
+TRANS,Human Resources,More Dry Spells,more water usage,"Increased costs for irrigation, could result in re-deploying staff to other divisions because back log of work (e.g. people that cut grass to watering).",Likely,Very Likely,1,1,1,1,1,1,1
+CORP,Fire,More Intense Rainfalls,less available work hours,delays,Unlikely,Very Likely,4,4,4,3,4,4,4
+CORP,Public Works Operations,Extended Spring/Fall,increased grass cutting,implications to switch over winter services,Likely,Almost Certain,3,2,3,3,3,3,1
+CORP,Public Works Operations,More Heat Waves,longer work hours,Impacts the amount of outdoor work that can be done - need more staff,Likely,Almost Certain,3,2,2,2,3,2,2
+CORP,Public Works Operations,More Freeze-Thaw Cycles,road damage,"need for updates to roads & trails, manholes, etc. to build resilience (maintenance = increased traffic congestion)",Very Likely,Very Likely,3,3,3,3,3,3,3
+CORP,Legal Services,"Others
+(e.g., higher wind speeds)",higher tree mortality,Liability of RH staff - did not trim enough branches.,Likely,Very Likely,3,2,3,3,1,2,3
+COM,Finance and Legal,More Intense Rainfalls,impacts erosion,need service providers with incentives,Likely,Very Likely,3,3,1,4,1,2,2
+CORP,Public Works Operations,Wetter Springs/Fall,health impacts,"More education & training on this, more staff to take care of this , changing staff uniforms to reduce risk",Likely,Very Likely,2,2,2,2,2,3,3
+CORP,Public Works Operations,More Heat Waves,construction damage,more maintenance,Likely,Almost Certain,4,3,3,3,3,3,3
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",At events stage lines can fail,"Heavier equipment is required, staff need to collapse tents, and events may be cancelled, causing a loss in revenue.",Likely,Very Likely,3,2,2,2,2,3,2
+ENV,Policy Planning,More Intense Rainfalls,flooding,Need to change site selection for community gardens.,Very Likely,Almost Certain,1,1,1,1,1,1,1
+COM,Natural Environment,More Dry Spells,health impacts,"Less staff able to work in certain conditions, and more health and safety training required.",Likely,Very Likely,1,1,2,1,1,1,1
+TECH,Corporate Services,More Heat Waves,Decrease in available work hours outdoors,less productivity,Likely,Very Likely,3,1,2,1,3,3,3
+WATER,Environmental Services,More Heat Waves,issues for health and safety of staff,may need shelters or liability issues,Likely,Very Likely,2,1,3,1,3,1,1
+ENV,Roads & Traffic Operations,"Others
+(e.g., higher wind speeds)",increase in building code changes,increased training/ uptake into services,Likely,Very Likely,1,1,1,1,1,1,1
+WATER,Environmental Services,More Ice Storms,more cut down trees,more pick up services,Unlikely,Likely,2,1,1,3,2,2,1
+COM,Operations & Maintenance,More Heat Waves,less available work hours,Additional staffing and costs.,Very Likely,Almost Certain,2,1,3,1,3,2,1
+CORP,Recreation & Culture,More Rain / Snow in Winter,harder for staff to get to workplace ,"disruption to project timelines (e.g. major workshops, consultation, audits)",Rare,Unlikely,2,1,2,1,2,2,1
+WATER,Environmental Services,More Intense Rainfalls,reduced water usage,less revenue,Unlikely,Likely,1,1,1,1,1,1,1
+CORP,Public Works Operations,More Dry Spells,Harder ground and soils,Reduce the ability for vegetation to grow and causes increased erosions in heavy rain events.,Unlikely,Likely,3,2,2,2,2,3,2
+TRANS,Human Resources,More Intense Rainfalls,staff safety,"More risk of injury to staff, may need increased operational procedures.",Unlikely,Likely,1,1,1,1,2,1,1
+ENV,Policy Planning,More Rain / Snow in Winter,more snow on roads,More snow storage space is needed (however RH is developing quickly). Increases maintenance costs as snow storage is brought to facilities.,Likely,Very Likely,1,1,1,1,2,1,1
+TECH,Corporate Services,More Heat Waves,increased pests,damage to crops that can impact food security,Likely,Very Likely,4,4,1,3,2,3,2
+CORP,Recreation & Culture,"Others
+(e.g., higher wind speeds)",impacts public events,"Cancellation of events, loss of revenue.",Rare,Unlikely,1,1,3,1,2,2,1
+ENV,Development Planning,"Others
+(e.g., higher wind speeds)",less defensible to the public without expertise,policy reform process too lengthy to address urgent needs,Very Likely,Almost Certain,2,1,1,1,1,1,1
+CORP,Public Works Operations,More Rain / Snow in Winter,longer work hours,increased need for staff time management/ HR demand,Very Likely,Almost Certain,4,3,3,3,4,4,3
+CORP,Public Works Operations,Extended Spring/Fall,road damage,more maintenance,Likely,Very Likely,4,3,2,3,2,3,2
+COM,Design & Construction,More Intense Rainfalls,damage to construction,More time and more costs.,Likely,Very Likely,2,2,1,3,1,2,2
+TECH,Corporate Services,More Heat Waves,greater reliance on air conditioning,more repairs required for cooling equipment,Very Likely,Almost Certain,3,2,1,2,1,1,2
+CORP,Fire,More Ice Storms,greater staff training,need to identify designated staff in these emergency situations,Very Likely,Almost Certain,4,3,2,3,3,3,4
+CORP,Public Works Operations,More Ice Storms,delayed emergency response,"More corporate planning to get staff to work, reduce level of response (at a certain point, it's too dangerous for emergency services to go on duty).",Unlikely,Very Likely,4,5,5,5,5,4,5
+CORP,Public Works Operations,Extended Spring/Fall,sewer back ups,NA,Likely,Very Likely,4,2,1,2,3,2,2
+ENV,Roads & Traffic Operations,More Rain / Snow in Winter,property damage,need to update building codes,Unlikely,Very Likely,2,1,1,1,1,1,1
+FSL,Public Health and EMS,More Heat Waves,More planning for municipalities to turn on splash pads,Earlier planning required for cooling stations,Unlikely,Very Likely,3,1,2,1,3,3,1
+FSL,Public Health and EMS,More Heat Waves,higher risks of power outages,increased transportation needed to transfer people at risk,Unlikely,Likely,2,2,3,2,4,1,3
+TECH,Corporate Services,More Freeze-Thaw Cycles,clog drains and ponding on facility roofs,risk of building failure or damage,Rare,Unlikely,2,1,1,1,1,1,1
+CORP,Legal Services,More Intense Rainfalls,project delays,"Complaints from users (trails are blocked and now users need to drive), and school route re-routed.",Very Likely,Almost Certain,3,2,3,3,1,2,3
+COM,Finance and Legal,More Freeze-Thaw Cycles,Increased damage to telephone lines,more claims by the residents,Likely,Almost Certain,2,2,1,1,2,3,2
+ENV,Policy Planning,Extended Spring/Fall,increased yard waste,More wear & tear of facilities,Unlikely,Likely,1,1,1,1,2,1,1
+FSL,Public Health and EMS,More Ice Storms,"power outage, and no heat",damage to properties,Likely,Likely,2,2,3,2,4,1,3
+ENV,Roads & Traffic Operations,More Freeze-Thaw Cycles,property damage,increased property maintenance (increased costs),Likely,Likely,1,1,1,1,1,1,1
+CORP,Fire,More Ice Storms,older infrastructure more at risk,need more repairs,Unlikely,Likely,4,4,4,3,4,4,4
+CORP,Fire,More Rain / Snow in Winter,erosion,more accidents,Likely,Almost Certain,4,3,2,3,3,3,4
+FSL,Public Health and EMS,More Rain / Snow in Winter,difficulty in people getting to work,shutdowns in rural areas and more BCP planning needed,Likely,Very Likely,1,1,3,1,3,3,1
+TRANS,Human Resources,More Intense Rainfalls,greater power outages,"Interruption to services, worker safety risks that will result in increased budget. Planning needed.",Unlikely,Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,More Intense Rainfalls,flooding,Degradation of natural systems.,Likely,Very Likely,3,2,2,2,2,3,2
+TECH,Corporate Services,More Intense Rainfalls,retention ponds will overflow,increased flood risk and damage,Likely,Very Likely,1,1,1,3,1,1,2
+CORP,Fire,More Ice Storms,Need for emergency warming centres.,more resources,Likely,Likely,4,4,4,3,4,4,4
+CORP,Public Works Operations,More Rain / Snow in Winter,increased staff resources,more costs,Likely,Very Likely,3,3,3,3,3,3,3
+TRANS,Human Resources,More Heat Waves,Greater need for cooling centres,more staff being hired will require more staff/ clerks entering HR info,Likely,Very Likely,3,1,1,1,1,1,1
+WATER,Environmental Services,More Dry Spells,Less carrier water,increased sewage/septic corrosion and complains,Unlikely,Likely,5,1,1,4,4,5,2
+ENV,Capital Delivery,More Intense Rainfalls,expanded flood zones,trails/other infrastructure will need to be re-routed,Likely,Very Likely,4,3,3,4,3,3,2
+COM,Natural Environment,Higher Average Temperatures,increased demand of shade,Will need more capacity to fulfill these requirements.,Likely,Almost Certain,2,1,1,1,1,1,1
+CORP,Public Works Operations,Extended Spring/Fall,Extended artificial turf season,"Can alter planning and timing of sports, season lengths, camps, etc. Requiring more time and staff devoted to this. This will also increase the amount of maintenance, also requiring more staff.",Very Likely,Almost Certain,3,2,2,2,2,2,2
+CORP,Public Works Operations,More Freeze-Thaw Cycles,shifts in natural vegetation,Change to tree planting lists.,Likely,Likely,3,2,2,2,2,3,3
+ENV,Policy Planning,Higher Average Temperatures,solar energy requirements,update standards,Very Likely,Almost Certain,1,1,1,1,2,1,1
+CORP,Legal Services,More Ice Storms,higher tree mortality,"Staff carrying branches ( very heavy) on slippery surfaces (increased injury), more staff hours, increase in risk and injuries.",Unlikely,Likely,3,2,3,3,1,2,3
+TECH,Corporate Services,All Extreme Weather,energy emergency and lack of services,Failure of back-up systems and need of extra staff,Likely,Very Likely,4,3,4,4,3,2,4
+ENV,Policy Planning,More Ice Storms,traffic issues,needs to be development of alternative modes of transportation,Likely,Very Likely,1,1,1,1,2,1,1
+CORP,Strategic Initiatives,All Extreme Weather,Business may not want to locate work,Increased commute,Rare,Unlikely,1,1,1,1,1,2,1
+COM,Natural Environment,Extended Spring/Fall,shifts in natural vegetation,"Changes to types of plants to buy, and where to buy them, can significantly increase budget.",Rare,Very Likely,2,1,1,1,1,1,1
+CORP,Recreation & Culture,More Ice Storms,not enough staff or resources,Potential increase in costs.,Rare,Unlikely,2,3,1,1,2,1,1
+COM,Finance and Legal,More Ice Storms,increased claims from injuries especially transit,increase costs,Likely,Very Likely,3,4,4,4,4,4,4
+TRANS,Transportation Services,More Heat Waves,Damage to technology in traffic signals,Higher frequency of replacement and need for staff to repair,Likely,Very Likely,3,3,3,1,3,3,3
+COM,Finance and Legal,More Intense Rainfalls,need for increase sites for infrastructure and increase discharges,increase costs for replacement,Likely,Very Likely,4,3,2,3,1,2,2
+ENV,Roads & Traffic Operations,More Ice Storms,property damage,delay in responding/ have to prioritize,Likely,Very Likely,1,1,2,1,1,1,1
+ENV,Roads & Traffic Operations,More Ice Storms,cant access certain areas,productivity decreases for enforcement,Likely,Very Likely,1,1,2,1,1,1,1
+WATER,Environmental Services,More Heat Waves,increased demand on water system,incresed capacity needs and greater risk of failure,Likely,Very Likely,2,1,3,1,3,4,4
+CORP,Fire,More Dry Spells,Decreased water supply for fire fighting.,Can result in firefighters taking water from ponds and can cause negative environmental impacts.,Rare,Likely,3,3,3,3,3,4,3
+CORP,Public Works Operations,More Dry Spells,increased wildfires,"Increased need for training staff, communications and research on these.",Unlikely,Likely,3,2,2,2,2,2,2
+CORP,Recreation & Culture,More Dry Spells,Lack of water for ice making in arenas.,Less service.,Rare,Unlikely,2,1,1,1,1,1,1
+TECH,Corporate Services,More Heat Waves,Less ice fishing activities,loss of revenue and cultural activities,Likely,Almost Certain,1,1,1,1,1,1,1
+COM,Natural Environment,More Intense Rainfalls,erosion,"Increased need for riparian zone repairs and control, greater need for maintenance for erosion controls.",Likely,Very Likely,3,3,2,3,3,3,1
+TRANS,Financial Services,More Ice Storms,Need for emergency warming centres.,More staff and money to keep these centres up and running.,Unlikely,Likely,3,1,1,1,1,1,1
+TRANS,Transportation Services,More Dry Spells,increased irrigation and water to wash buses,more costs and usage of water resources,Likely,Very Likely,2,2,1,1,1,1,1
+TRANS,Financial Services,Higher Average Temperatures,Seasonal demand and variability.,Extended demand and spike in requirements.,Likely,Very Likely,4,1,1,1,3,2,2
+CORP,Public Works Operations,"Others
+(e.g., higher wind speeds)",greater debris,"increased sweeping, cleaning, maintenance",Likely,Very Likely,4,3,2,3,2,2,2
+COM,Finance and Legal,More Intense Rainfalls,increase impact due to flooding,York region doesn't have insurance for underground infrastructure and has to payout these costs,Likely,Very Likely,4,3,2,3,1,2,4
+COM,Natural Environment,More Intense Rainfalls,erosion,"Increased need for riparian zone repairs and control, greater need for maintenance for erosion controls.",Likely,Very Likely,3,3,1,3,1,2,1
+COM,Operations & Maintenance,More Heat Waves,More dehydrating equipment.,Operating costs and energy consumption increase.,Very Likely,Almost Certain,4,3,2,2,3,2,1
+CORP,Public Works Operations,More Intense Rainfalls,flooding,increased use of sandbags and signs for roads,Likely,Very Likely,4,4,4,4,4,5,4
+CORP,Public Works Operations,More Dry Spells,loss of soil fertility,"Replace soils, requiring additional costs and staff.",Unlikely,Likely,3,2,2,2,2,3,2
+COM,Natural Environment,More Intense Rainfalls,infrastructure damage,"Health and safety risks, liability risks.",Likely,Very Likely,2,2,2,1,1,2,1
+WATER,Environmental Services,More Heat Waves,odour issues from waste and wastewater,increase complaints or compliance issues with MOECC,Likely,Almost Certain,4,1,2,3,3,3,2
+CORP,Public Works Operations,More Heat Waves,road damage,increased maintenance & costs,Likely,Almost Certain,3,3,1,1,1,1,1
+COM,Operations & Maintenance,More Dry Spells,higher demand for irrigation,Increased costs (per unit & total).,Likely,Very Likely,4,1,1,1,1,1,1
+CORP,Public Works Operations,More Intense Rainfalls,increased pests,"More hazards for West Nile, health hazards.",Likely,Very Likely,3,2,2,2,2,2,2
+ENV,Capital Delivery,More Rain / Snow in Winter,more snow storage sites,need to find more space,Likely,Very Likely,1,2,2,3,1,1,1
+TECH,Corporate Services,More Dry Spells,water reservoirs need flushing system and maintenance,increased costs,Unlikely,Likely,2,2,1,2,1,1,1
+CORP,Recreation & Culture,More Intense Rainfalls,flooding,"Fields are waterlogged, trails are washed out, so many closures and cancellations. Loss in revenue, increase in public complaints.",Likely,Very Likely,3,3,1,1,2,2,1
+CORP,Public Works Operations,More Freeze-Thaw Cycles,impacts to underground utilities,"more water main breaks, increased repairs, servicing, complaints",Unlikely,Likely,3,3,3,3,3,3,3
+ENV,Policy Planning,More Heat Waves,increased demand of shade,"increased energy needs, smaller dwelling size",Unlikely,Very Likely,1,1,1,1,2,1,1
+CORP,Public Works Operations,More Intense Rainfalls,erosion,Cancellations of programs.,Likely,Very Likely,3,2,2,2,2,3,2

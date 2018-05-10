@@ -1,0 +1,1 @@
+This figure represents the total number of risks identified based on each climate event. 
