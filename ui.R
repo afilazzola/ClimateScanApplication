@@ -7,7 +7,8 @@
 shinyUI(fluidPage(theme = shinytheme("flatly"),sidebarLayout(
 
     sidebarPanel(fileInput('infile', label = "Choose a File"),
-                 selectInput("department","Departments",c(Choose="")),
+                 selectInput("department","Department",c(Choose="")),
+                 selectInput("division","Division",c(Choose="")),
                  uiOutput("download")
                               ),
                  
@@ -17,8 +18,11 @@ shinyUI(fluidPage(theme = shinytheme("flatly"),sidebarLayout(
                           tabPanel("ReadMe", 
                                    fluidPage( includeMarkdown("index.md"),
                                              includeMarkdown("README.md"))),
-                          tabPanel("Department", withSpinner(tableOutput("contents"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlot"),includeMarkdown("frequencyplot.md"),
-                                   plotOutput(outputId = "consPlot"),includeMarkdown("consWordcloud.md"),plotOutput(outputId = "wordcloud")
+                          tabPanel("Department", withSpinner(tableOutput("contentsDept"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlotDept"),includeMarkdown("frequencyplot.md"),
+                                   plotlyOutput(outputId = "consPlotDept"),includeMarkdown("consWordcloud.md"),plotOutput(outputId = "wordcloudDept")
+                          ),
+                          tabPanel("Division", withSpinner(tableOutput("contents"), type=6, color="#18BC9D"),plotOutput(outputId = "riskPlot"),includeMarkdown("frequencyplot.md"),
+                                   plotlyOutput(outputId = "consPlot"),includeMarkdown("consWordcloud.md"),plotOutput(outputId = "wordcloud")
                                    ),
                           tabPanel("Corporate",
                                    fluidPage(
