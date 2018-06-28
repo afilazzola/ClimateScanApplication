@@ -134,7 +134,7 @@ server <- function(input, output, session) {
   
   
   ## division consequence rankings
-  output$consPlot <- renderPlotly({
+  output$consPlot <- renderPlot({
     
     ## require division input
     req(input$division)
@@ -154,7 +154,7 @@ server <- function(input, output, session) {
   })
 
   ## Department consequence rankings
-  output$consPlotDept <- renderPlotly({
+  output$consPlotDept <- renderPlot({
     
     ## require department input
     req(input$department)
