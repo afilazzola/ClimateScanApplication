@@ -5,8 +5,8 @@ account: afilazzola
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 338665
-bundleId: 1454479
+bundleId: 1454604
 url: https://afilazzola.shinyapps.io/climatescanapplication/
-when: 1530197229.16914
+when: 1530200237.25676
 asMultiple: FALSE
 asStatic: FALSE

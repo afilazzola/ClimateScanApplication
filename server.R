@@ -106,9 +106,9 @@ server <- function(input, output, session) {
     dept.clim <- subset(climate.div, division==input$division) 
     ymax <- max(dept.clim$freq.risk)+2
     ## Plots the risks identifed within each division
-    ggplot(dept.clim, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+
+    ggplot(dept.clim, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("Number Of Risks") + xlab("")+
       ## improve plot look
-      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), axis.text.x = element_text(color="black"))
 
   })
   
@@ -126,9 +126,9 @@ server <- function(input, output, session) {
     dept.clim <- subset(climate.div, Department==input$department) 
     ymax <- max(dept.clim$freq.risk)+2
     ## Plots the risks identifed within each Department
-    ggplot(dept.clim, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+
+    ggplot(dept.clim, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("Number Of Risks") + xlab("")+
       ## improve plot look
-      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), axis.text.x = element_text(color="black"))
     
   })
   
@@ -146,9 +146,9 @@ server <- function(input, output, session) {
       gather(consequence, value, Financial:Critical.Infra) %>% group_by(consequence) %>%  ## extract columns for consequences and identify as groups
       summarize(avg=mean(value))
     ymax <- max(consequence$avg)+1
-    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("average consequence ranking") + xlab("")+
+    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("Average Consequence Ranking") + xlab("")+
     ## improve plot look
-    theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+    theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), axis.text.x = element_text(color="black"))
     
     
   })
@@ -166,9 +166,9 @@ server <- function(input, output, session) {
       gather(consequence, value, Financial:Critical.Infra) %>% group_by(consequence) %>%  ## extract columns for consequences and identify as groups
       summarize(avg=mean(value))
     ymax <- max(consequence$avg)+1
-    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("average consequence ranking") + xlab("")+
+    ggplot(consequence, aes(x=consequence, y=avg))+geom_bar(stat="identity") + coord_flip() + ylab("Average Consequence Ranking") + xlab("")+
       ## improve plot look
-      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+      theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), axis.text.x = element_text(color="black"))
     
   })
   
@@ -193,7 +193,7 @@ server <- function(input, output, session) {
     climate.corp <- df.in  %>% group_by(If) %>% summarize(freq.risk=length(Future.risk.quant))
     ## plots the risk for the division
     ymax <- max(climate.corp$freq.risk)+2
-    ggplot(climate.corp, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("number of risks") + xlab("")+
+    ggplot(climate.corp, aes(x=If, y=freq.risk))+geom_bar(stat="identity") + coord_flip() + ylab("Number Of Risks") + xlab("")+
       ## improve plot look
       theme_bw(base_size = 16)+scale_y_continuous(expand = c(0, 0), limits=c(0,ymax))  +theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 
